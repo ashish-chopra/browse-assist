@@ -1,0 +1,17 @@
+{
+  "name": "browse-assist",
+  "version": "1.0.0",
+  "description": "A browse-assist view for existing file explorer in OS.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server -c config.json"
+  },
+  "author": "PAAS",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "lite-server": "^2.4.0"
+  }
+}
