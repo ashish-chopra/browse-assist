@@ -1,0 +1,23 @@
+{
+  "name": "browse-assist",
+  "description": "A browse-assist view for existing file explorer in OS.",
+  "main": "index.js",
+  "authors": [
+    "PAAS"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ashish-chopra/browse-assist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.5.0",
+    "bootstrap": "^4.1.3"
+  }
+}
