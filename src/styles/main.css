@@ -40,6 +40,9 @@ body::after {
     width: 230px;
     background: #f8f9fa;
     border-right: 1px solid #eee;
+    padding: 20px 4px;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
 }
 
 .explorer {
@@ -87,4 +90,19 @@ body::after {
 
 .spacer {
     flex: 1 1;
+}
+
+.thumbnail-view {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thumbnail-view > div {
+    text-align: center;
+}
+.thumbnail-view > i {
+    display: block;
 }
