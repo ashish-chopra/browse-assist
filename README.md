@@ -1,28 +1,33 @@
-# browse-assist
+# About
 
-This is a class project for [CS544](https://blogs.ubc.ca/cpsc544/home/) at the University of British Columbia
+`browse-assist` is shared class project for [CS544](https://blogs.ubc.ca/cpsc544/home/) in the University of British Columbia for HCI course. This project showcase a concept prototype of improved browsing feature inside file explorer of Windows 10.
+
+For the sake of simplicity, the scope of this project is to showcase the proposed interaction design with the file explorers, therefore, we have implemented it in a fake explorer simulated in HTML, CSS and JavaScript.
 
 # Pre-requisite
-In order to run this project on your machine, download `NodeJS`.
+In order to develop this project you require following software on your system:
+   1. node.js (Runtime for JS environment)
+   2. VS Code (IDE for development)
 
 # How to Install
-1. Clone the project as given below:
+1. Clone the project using the following command into a directory:
 
     ```
      $> git clone https://github.com/ashish-chopra/browse-assist.git
     ```
-2. Run following commands to download dependencies:
+2. Install the dependencies using following command:
    ```
      $> npm install
    ```
 
-3. Run following command to start the server:
+3. Once done, start the server using following command:
     ```
     $> npm start
     ```
+4. If not already, then access the URL on your browser `http://localhost:3000`.
 
 # Contributors
 1. Abdulai
-2. Ashish Chopra
-3. Patrick Boutet
+2. [Ashish Chopra](https://github.com/ashish-chopra)
+3. [Patrick Boutet](https://github.com/pboutet)
 4. Steve Kiasca
