@@ -30,4 +30,4 @@ In order to develop this project you require following software on your system:
 1. Abdulai
 2. [Ashish Chopra](https://github.com/ashish-chopra)
 3. [Patrick Boutet](https://github.com/pboutet)
-4. Steve Kiasca
+4. [Steve Kaisca](https://github.com/swkasica)
