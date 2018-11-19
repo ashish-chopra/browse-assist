@@ -1,6 +1,6 @@
 # browse-assist
 
-This is a class project for [CS544](https://blogs.ubc.ca/cpsc544/home/) in the University of British Columbia
+This is a class project for [CS544](https://blogs.ubc.ca/cpsc544/home/) at the University of British Columbia
 
 # Pre-requisite
 In order to run this project on your machine, download `NodeJS`.

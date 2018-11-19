@@ -2,16 +2,19 @@
   "name": "browse-assist",
   "version": "1.0.0",
   "description": "A browse-assist view for existing file explorer in OS.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall2": "bower install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server -c config.json"
+    "start:web": "lite-server -c config.json",
+    "start": "electron ."
   },
   "author": "PAAS",
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.8.4",
+    "electron": "^3.0.9",
+    "electron-reload": "^1.3.0",
     "lite-server": "^2.4.0"
   }
 }
