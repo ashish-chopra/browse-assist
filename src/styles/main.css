@@ -38,6 +38,7 @@ body::after {
 
 .navigator {
     width: 230px;
+    min-width: 190px;
     background: #f8f9fa;
     border-right: 1px solid #eee;
     padding: 20px 4px;
@@ -55,6 +56,9 @@ body::after {
     padding: 3px;
     font-size: 0.9rem;
     border: 1px solid #eee;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .breadcrumb-bar > * {
     padding: 0 5px;
@@ -102,7 +106,13 @@ body::after {
 
 .thumbnail-view > div {
     text-align: center;
+    max-width: 100px;
+    margin: 0 1rem;
 }
 .thumbnail-view > i {
     display: block;
+}
+
+.assist-filler {
+    margin: 0 30px;
 }

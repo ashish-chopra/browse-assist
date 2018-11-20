@@ -33,7 +33,6 @@
 
     rootController.$inject = ['$http'];
     function rootController($http) {
-        console.log('running rootController');
         var vm = this;
         vm.treeOptions = {
             nodeChildren: "children",
@@ -48,6 +47,10 @@
             vm.treeModel = response.data;
             console.log('data received', vm.treeModel);
         });
+
+        vm.nodeSelected = function(node, selected) {
+            console.log(node, selected);
+        }
     }
 
     assistController.$inject = [];

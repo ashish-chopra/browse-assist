@@ -63,7 +63,8 @@
             <div class="navigator">
                 <treecontrol class="tree-classic"
                     tree-model="rCtrl.treeModel"
-                    options="rCtrl.treeOptions">
+                    options="rCtrl.treeOptions"
+                    on-selection="rCtrl.nodeSelected(node, selected)">
                      {{node.name}}
                  </treecontrol>
             </div>
