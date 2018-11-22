@@ -13,11 +13,11 @@
     configureApp.$inject = ['$urlRouterProvider', '$stateProvider'];
     function configureApp($urlRouterProvider, $stateProvider) {
         console.log('configuration done');
-        $urlRouterProvider.otherwise("/");
+        $urlRouterProvider.otherwise("/0");
         $stateProvider
             .state({
                 name: 'home',
-                url: '/',
+                url: '/:id',
                 templateUrl: 'templates/home.html',
                 controller: thumbnailController,
                 controllerAs: "thumbCtrl"
@@ -25,15 +25,19 @@
             })
             .state({
                 name: 'assist', 
-                url: "/assist",
+                url: "/assist/:id",
                 templateUrl: "templates/assist.html"
             });
     }
 
 
-    rootController.$inject = ['$http'];
-    function rootController($http) {
+    rootController.$inject = ['$http', '$state'];
+    function rootController($http, $state) {
         var vm = this;
+        vm.rootId = 0;
+        vm.selectedNode = null;
+        vm.treeModel = null;
+        vm.currentState = 'home';
         vm.treeOptions = {
             nodeChildren: "children",
             dirSelectable: true,
@@ -44,12 +48,23 @@
             }
         };
         $http.get('data/file.json').then(function(response) {
-            vm.treeModel = response.data;
-            console.log('data received', vm.treeModel);
+            if (response.data) {
+                response.data = { name: "", id: "#", children: [response.data]};
+            }
+            vm.treeModel = vm.selectedNode = response.data;
+            console.log(vm.treeModel);
         });
 
         vm.nodeSelected = function(node, selected) {
-            console.log(node, selected);
+            if (node.children) {
+                this.selectedNode = node;
+                $state.reload();
+            }
+        }
+
+        vm.changeView = function(stateName) {
+            vm.currentState = stateName;
+            $state.go(stateName, {id: vm.rootId});
         }
     }
 
@@ -59,13 +74,14 @@
     }
 
 
-    thumbnailController.$inject = ['$http'];
-    function thumbnailController($http) {
+    thumbnailController.$inject = ['$http', '$stateParams'];
+    function thumbnailController($http, $stateParams) {
         var vm = this;
-
-        $http.get('data/file.json').then(function(data) {
-            vm.data = data.data;
-        });
+        console.log($stateParams.id);
+        // $http.get('data/file.json').then(function(response) {
+        //     //vm.data = response.data;
+        //     vm.data = response.data[$stateParams.id];
+        // });
     }
 
 }());

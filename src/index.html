@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <div class="root-container">
+    <div class="root-container" ng-controller="RootController as rCtrl">
         <div class="top-section">
             <button onclick="window.history.back()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Back">
                 <i class="fas fa-arrow-left btn-sm"></i>
@@ -59,10 +59,11 @@
                 <i class="fas fa-search"></i>
             </div>
         </div>
-        <div class="main-section" ng-controller="RootController as rCtrl">
+        <div class="main-section">
             <div class="navigator">
                 <treecontrol class="tree-classic"
                     tree-model="rCtrl.treeModel"
+                    expanded-nodes="rCtrl.treeModel.children"
                     options="rCtrl.treeOptions"
                     on-selection="rCtrl.nodeSelected(node, selected)">
                      {{node.name}}
@@ -77,13 +78,11 @@
             <div class="spacer"></div>
             <div>
                 <button type="button" class="btn btn-light btn-sm"  data-toggle="tooltip"
-                    data-placement="top" title="Browse Assist View"
-                    ui-sref="assist" ui-sref-active="active">
-                    <!-- <i class="fas fa-dharmachakra"></i> -->
+                    data-placement="top" title="Browse Assist View" ng-click="rCtrl.changeView('assist')" ng-class="{'active': rCtrl.currentState == 'assist'}">
                     <i class="devicon-webpack-plain"></i>
                 </button>
                 <button  type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top"
-                    title="Thumbnail View" ui-sref="home" ui-sref-active="active">
+                    title="Thumbnail View" ng-click="rCtrl.changeView('home')" ng-class="{'active': rCtrl.currentState == 'home'}">
                     <i class="fas fa-th-large"></i>
                 </button>
                 <button type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="List View">

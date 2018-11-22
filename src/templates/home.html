@@ -1,6 +1,6 @@
 <div class="thumbnail-view">
-    <div ng-repeat="item in thumbCtrl.data.children">
-        <i class="fas fa-folder fa-5x"></i>
+    <div ng-repeat="item in rCtrl.selectedNode.children">
+        <i class="fas fa-5x" ng-class="item.children ? 'fa-folder' : 'fa-file'"></i>
         <span>{{ item.name }}</span>
     </div>
 </div>
