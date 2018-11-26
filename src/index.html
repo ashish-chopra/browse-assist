@@ -16,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
     <script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="lib/angular-tree-control/angular-tree-control.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" onload="window.$ = window.jQuery = module.exports;"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -32,14 +32,14 @@
         });
     </script>
 </head>
-
+<!-- onload="window.$ = window.jQuery = module.exports;" -->
 <body>
     <div class="root-container" ng-controller="RootController as rCtrl">
         <div class="top-section">
-            <button onclick="window.history.back()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Back">
+            <button ng-click="rCtrl.back()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Back">
                 <i class="fas fa-arrow-left btn-sm"></i>
             </button>
-            <button class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Forward">
+            <button ng-click="rCtrl.forward()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Forward">
                 <i class="fas fa-arrow-right"></i>
             </button>
             <button class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Level Up">
@@ -63,7 +63,7 @@
             <div class="navigator">
                 <treecontrol class="tree-classic"
                     tree-model="rCtrl.treeModel"
-                    expanded-nodes="rCtrl.treeModel.children"
+                    selected-node="rCtrl.selectedNode"
                     options="rCtrl.treeOptions"
                     on-selection="rCtrl.nodeSelected(node, selected)">
                      {{node.name}}

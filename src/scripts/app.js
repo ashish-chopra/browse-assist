@@ -31,13 +31,13 @@
     }
 
 
-    rootController.$inject = ['$http', '$state'];
-    function rootController($http, $state) {
+    rootController.$inject = ['$http', '$state', '$window'];
+    function rootController($http, $state, $window) {
         var vm = this;
         vm.rootId = 0;
+        vm.currentState = 'home';
         vm.selectedNode = null;
         vm.treeModel = null;
-        vm.currentState = 'home';
         vm.treeOptions = {
             nodeChildren: "children",
             dirSelectable: true,
@@ -49,22 +49,70 @@
         };
         $http.get('data/file.json').then(function(response) {
             if (response.data) {
+                vm.selectedNode = response.data;
                 response.data = { name: "", id: "#", children: [response.data]};
             }
-            vm.treeModel = vm.selectedNode = response.data;
-            console.log(vm.treeModel);
+            vm.treeModel = response.data;
         });
 
         vm.nodeSelected = function(node, selected) {
             if (node.children) {
-                this.selectedNode = node;
-                $state.reload();
+                vm.selectedNode = node;
+                vm.rootId = node.id;
+                transition();
             }
         }
 
         vm.changeView = function(stateName) {
             vm.currentState = stateName;
-            $state.go(stateName, {id: vm.rootId});
+            transition();
+        }
+
+        vm.takeAction = function(node) {
+            if (node.children) {
+                drillTo(node.id);
+            } else {
+                // open the file.
+            }
+        }
+
+        vm.back = function() {
+            $window.history.back();
+        }
+        drillTo = function(id) {
+            vm.selectedNode = getNodeBy(id);
+            vm.rootId = vm.selectedNode.id;
+            transition();
+        }
+
+        
+        transition = function() {
+            $state.go(vm.currentState, {id: vm.rootId});
+        }
+
+        getNodeBy = function(id) {
+            root = vm.treeModel;
+            return getNode(root, id);
+        }
+        
+        getNode = function(parent, id) {
+            let result = null;
+            if (parent) {
+                if (parent.id == id) {
+                    result = parent;
+                }
+                else {
+                    if (parent.children) {
+                        for (let i = 0; i < parent.children.length; i++) {
+                            let node = parent.children[i];
+                            result = node.children ? getNode(node, id) : null;
+                            if (result) break;
+                        }
+                    }
+                    
+                }
+            }
+            return result;
         }
     }
 
@@ -76,12 +124,7 @@
 
     thumbnailController.$inject = ['$http', '$stateParams'];
     function thumbnailController($http, $stateParams) {
-        var vm = this;
-        console.log($stateParams.id);
-        // $http.get('data/file.json').then(function(response) {
-        //     //vm.data = response.data;
-        //     vm.data = response.data[$stateParams.id];
-        // });
+       
     }
 
 }());
