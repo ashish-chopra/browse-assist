@@ -47,7 +47,8 @@ body::after {
 }
 
 .explorer {
-
+    height: calc(100vh - 90px);
+    width: 100%;
 }
 
 .breadcrumb-bar {
@@ -87,7 +88,6 @@ body::after {
     height: 45px;
     align-items: center;
     padding: 0 10px;
-    /* line-height: 40px; */
     border-top: 1px solid #eee;
 }
 
@@ -116,3 +116,70 @@ body::after {
 .assist-filler {
     margin: 0 30px;
 }
+
+.assist-wrapper {
+    height: 100%;
+    position:relative;
+}
+
+.assist-wrapper > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #efefef; */
+    width: 100%;
+    height: 100%;
+}
+
+.assist-wrapper > div.toolbar {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba(204, 204, 204, 0.3);
+    z-index: 1000;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.assist-wrapper > .toolbar > * {
+    margin: 2px;
+}
+
+/* SVG CLASSES */
+/* svg {
+    border: 1px solid pink;
+    width: 100%;
+    height: 100%;
+} */
+
+.node text {
+    font: 12px sans-serif;
+ }
+ .node.active text {
+   font-weight: bold;
+ }
+ .node--internal text {
+   text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+ }
+
+ .link {
+   fill: none;
+   stroke: #555;
+   stroke-opacity: 0.4;
+   stroke-width: 1.5px;
+ }
+ g.node {
+   cursor: pointer;
+ }
+
+ text {
+   font-family: FontAwesome;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }

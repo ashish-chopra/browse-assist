@@ -13,18 +13,22 @@
     <link rel="stylesheet" href="lib/angular-tree-control/css/tree-control.css">
     <link rel="stylesheet" href="styles/main.css">
 
+    <!-- <script src="https://use.fontawesome.com/e27b6d4a31.js"></script> -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
     <script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="lib/angular-tree-control/angular-tree-control.js"></script>
-    <script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+<script>
         function loadJSFromModuleIfExists() {
             if (module && module.exports) {
                 window.$ = window.jQuery = module.exports
             }
         }
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" onload="loadJSFromModuleIfExists()" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" onload="loadJSFromModuleIfExists()" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
@@ -39,41 +43,41 @@
         });
     </script>
 </head>
+
 <body>
     <div class="root-container" ng-controller="RootController as rCtrl">
         <div class="top-section">
-            <button ng-click="rCtrl.back()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Back">
-                <i class="fas fa-arrow-left btn-sm"></i>
+            <button ng-click="rCtrl.back()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom"
+                title="Back">
+                <i class="fa fa-arrow-left btn-sm"></i>
             </button>
-            <button ng-click="rCtrl.forward()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Forward">
-                <i class="fas fa-arrow-right"></i>
+            <button ng-click="rCtrl.forward()" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom"
+                title="Forward">
+                <i class="fa fa-arrow-right"></i>
             </button>
             <button class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="bottom" title="Level Up">
-                <i class="fas fa-arrow-up "></i>
+                <i class="fa fa-arrow-up "></i>
             </button>
             <div class="breadcrumb-bar">
-                <i class="fas fa-folder"></i>
-                <i class="fas fa-angle-right"></i>
+                <i class="fa fa-folder"></i>
+                <i class="fa fa-chevron-right"></i>
                 <span>Computer</span>
-                <i class="fas fa-angle-right"></i>
+                <i class="fa fa-chevron-right"></i>
                 <span>Users</span>
-                <i class="fas fa-angle-right"></i>
+                <i class="fa fa-chevron-right"></i>
                 <span>Ashish Chopra</span>
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Search here">
-                <i class="fas fa-search"></i>
+                <i class="fa fa-search"></i>
             </div>
         </div>
         <div class="main-section">
             <div class="navigator">
-                <treecontrol class="tree-classic"
-                    tree-model="rCtrl.treeModel"
-                    selected-node="rCtrl.selectedNode"
-                    options="rCtrl.treeOptions"
-                    on-selection="rCtrl.nodeSelected(node, selected)">
-                     {{node.name}}
-                 </treecontrol>
+                <treecontrol class="tree-classic" tree-model="rCtrl.treeModel" selected-node="rCtrl.selectedNode"
+                    options="rCtrl.treeOptions" on-selection="rCtrl.nodeSelected(node, selected)">
+                    {{node.name}}
+                </treecontrol>
             </div>
             <div class="explorer">
                 <ui-view></ui-view>
@@ -83,16 +87,16 @@
             <div>36 Items</div>
             <div class="spacer"></div>
             <div>
-                <button type="button" class="btn btn-light btn-sm"  data-toggle="tooltip"
-                    data-placement="top" title="Browse Assist View" ng-click="rCtrl.changeView('assist')" ng-class="{'active': rCtrl.currentState == 'assist'}">
+                <button type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Browse Assist View"
+                    ng-click="rCtrl.changeView('assist')" ng-class="{'active': rCtrl.currentState == 'assist'}">
                     <i class="devicon-webpack-plain"></i>
                 </button>
-                <button  type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top"
-                    title="Thumbnail View" ng-click="rCtrl.changeView('home')" ng-class="{'active': rCtrl.currentState == 'home'}">
-                    <i class="fas fa-th-large"></i>
+                <button type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Thumbnail View"
+                    ng-click="rCtrl.changeView('home')" ng-class="{'active': rCtrl.currentState == 'home'}">
+                    <i class="fa fa-th-large"></i>
                 </button>
                 <button type="button" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="List View">
-                    <i class="fas fa-list-ul"></i>
+                    <i class="fa fa-list-ul"></i>
                 </button>
             </div>
         </div>
