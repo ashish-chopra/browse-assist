@@ -154,14 +154,14 @@
             }).on("mouseout", function () {
                 d3.select(this).classed("active", false);
             });
-
+        
         node.append("image")
             .attr("x", -6)
             .attr("y", -6)
             .attr("width", 14)
             .attr("height", 14)
             .attr("transform", function (d) { return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")"; })
-            .attr("xlink:href", function (d) { return d.children ? "img/favicon-folder.ico" : "img/favicon-file.ico" });
+            .attr("xlink:href", getIcon);
 
         node.append("text")
             .attr("dy", "0.31rem")
@@ -178,8 +178,43 @@
 
         svg.call(zoom)
             .on("dblclick.zoom", null);
+
         function zoomed() {
             chart.attr("transform", d3.event.transform);
+        }
+
+        function getIcon(d) {
+            var ico;
+            if (d.children) {
+                ico = "folder"
+            } else {
+                switch(d.data.name.slice(-4)) {
+                    case ".pdf": 
+                        ico = "pdf"; 
+                        break;
+                    case ".xlsx": 
+                        ico = "excel"; 
+                        break;
+                    case ".zip":
+                        ico = "archive";
+                        break;
+                    case ".png":
+                    case ".jpg":
+                    case ".jpeg":
+                        ico = "image";
+                        break;
+                    case ".ppt":
+                        ico = "powerpoint";
+                        break;
+                    case ".txt":
+                        ico = "text";
+                    case ".doc":
+                    case ".docx":
+                        ico = "word";
+                    default: ico = "file";
+                }
+            }
+            return "img/icons/" + ico + ".ico";
         }
 
     }
