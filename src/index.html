@@ -18,7 +18,7 @@
     <script src="lib/angular-tree-control/angular-tree-control.js"></script>
     <script>
         function loadJSFromModuleIfExists() {
-            if (module.exports) {
+            if (module && module.exports) {
                 window.$ = window.jQuery = module.exports
             }
         }
@@ -29,7 +29,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="scripts/app.js"></script>
 
     <title>Browse-Assist Demo</title>
