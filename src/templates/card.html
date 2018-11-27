@@ -1,0 +1,17 @@
+<div class="modal-header">
+    <h5 class="modal-title"><em>{{kCtrl.data.title}}</em></h5>
+    <div class="modal-extra">
+        <div>
+            <div><b>File:</b> {{kCtrl.data.name}}</div>
+            <span><b>Modified:</b> {{kCtrl.data.date}}</span>
+        </div>
+        <img ng-src="img/{{kCtrl.data.type}}.png" width="70px" height="70px" alt="icon">
+    </div>
+</div>
+<div class="modal-author"><b style="color:#000">Authors:</b> {{ kCtrl.data.author}}</div>
+<div class="modal-body">
+    {{ kCtrl.data.abstract }}
+    <div class="modal-gallery" ng-if="kCtrl.data.image">
+        <img ng-src="img/{{kCtrl.data.image}}" style="width:100%">
+    </div>
+</div>
