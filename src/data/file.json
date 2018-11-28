@@ -7,49 +7,1081 @@
             "name": "Courses",
             "id": 2,
             "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "placeholder copy 10.txt",
+                    "id": 3,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 11.txt",
+                    "id": 4,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 12.txt",
+                    "id": 5,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 13.txt",
+                    "id": 6,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 14.txt",
+                    "id": 7,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 15.txt",
+                    "id": 8,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 2.txt",
+                    "id": 9,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 3.txt",
+                    "id": 10,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 4.txt",
+                    "id": 11,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 5.txt",
+                    "id": 12,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 6.txt",
+                    "id": 13,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 7.txt",
+                    "id": 14,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 8.txt",
+                    "id": 15,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy 9.txt",
+                    "id": 16,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder copy.txt",
+                    "id": 17,
+                    "type": "file"
+                },
+                {
+                    "name": "placeholder.txt",
+                    "id": 18,
+                    "type": "file"
+                }
+            ]
         },
         {
             "name": "Desktop",
-            "id": 3,
+            "id": 19,
             "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "accessKeys.csv",
+                    "id": 20,
+                    "type": "file"
+                },
+                {
+                    "name": "amtrack.png",
+                    "id": 21,
+                    "type": "file"
+                },
+                {
+                    "name": "CV_181101.docx",
+                    "id": 22,
+                    "type": "file"
+                },
+                {
+                    "name": "EMNLP_2018",
+                    "id": 23,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "contacts.xlsx",
+                            "id": 24,
+                            "type": "file"
+                        },
+                        {
+                            "name": "notes_day1.txt",
+                            "id": 25,
+                            "type": "file"
+                        },
+                        {
+                            "name": "notes_day2.txt",
+                            "id": 26,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Program_guide.pdf",
+                            "id": 27,
+                            "type": "file"
+                        },
+                        {
+                            "name": "touch",
+                            "id": 28,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Presentations",
+                    "id": 29,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "CNN.pptx",
+                            "id": 30,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Nereus.pptx",
+                            "id": 31,
+                            "type": "file"
+                        },
+                        {
+                            "name": "U_of_W_May1016.pptx",
+                            "id": 32,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "sale_bill.pdf",
+                    "id": 33,
+                    "type": "file"
+                },
+                {
+                    "name": "schedule.png",
+                    "id": 34,
+                    "type": "file"
+                }
+            ]
         },
         {
             "name": "Documents",
-            "id": 4,
+            "id": 35,
             "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "534L_A1.tex",
+                    "id": 36,
+                    "type": "file"
+                },
+                {
+                    "name": "AES_poster.pdf",
+                    "id": 37,
+                    "type": "file"
+                },
+                {
+                    "name": "airbnb",
+                    "id": 38,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "2016",
+                            "id": 39,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "directions.png",
+                                    "id": 40,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "otawa.pdf",
+                                    "id": 41,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "receipt.pdf",
+                                    "id": 42,
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2017",
+                            "id": 43,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "directions.png",
+                                    "id": 44,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "montreal.pdf",
+                                    "id": 45,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "receipt.pdf",
+                                    "id": 46,
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2018",
+                            "id": 47,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "calgary.pdf",
+                                    "id": 48,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "directions.png",
+                                    "id": 49,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "receipt.pdf",
+                                    "id": 50,
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "banking",
+                    "id": 51,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "statement1.pdf",
+                            "id": 52,
+                            "type": "file"
+                        },
+                        {
+                            "name": "statement2.pdf",
+                            "id": 53,
+                            "type": "file"
+                        },
+                        {
+                            "name": "statement3.pdf",
+                            "id": 54,
+                            "type": "file"
+                        },
+                        {
+                            "name": "statement4.pdf",
+                            "id": 55,
+                            "type": "file"
+                        },
+                        {
+                            "name": "statement5.pdf",
+                            "id": 56,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "BC_STIR",
+                    "id": 57,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "CFP.docx",
+                            "id": 58,
+                            "type": "file"
+                        },
+                        {
+                            "name": "proposal_draft.docx",
+                            "id": 59,
+                            "type": "file"
+                        },
+                        {
+                            "name": "proposal_final.docx",
+                            "id": 60,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Videos",
+                            "id": 61,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "demo1.mov",
+                                    "id": 62,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "demo2.mov",
+                                    "id": 63,
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "bills",
+                    "id": 64,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "mastercard_Apr.pdf",
+                            "id": 65,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Aug.pdf",
+                            "id": 66,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Dec.pdf",
+                            "id": 67,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Feb.pdf",
+                            "id": 68,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Jan.pdf",
+                            "id": 69,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Jul.pdf",
+                            "id": 70,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Jun.pdf",
+                            "id": 71,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Mar.pdf",
+                            "id": 72,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_May.pdf",
+                            "id": 73,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Nov.pdf",
+                            "id": 74,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Oct.pdf",
+                            "id": 75,
+                            "type": "file"
+                        },
+                        {
+                            "name": "mastercard_Sep.pdf",
+                            "id": 76,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpsc544",
+                    "id": 77,
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "lit_review",
+                    "id": 78,
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "login_info.txt",
+                    "id": 79,
+                    "type": "file"
+                },
+                {
+                    "name": "papers",
+                    "id": 80,
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "passport.jpg",
+                    "id": 81,
+                    "type": "file"
+                },
+                {
+                    "name": "passwords.kdbx",
+                    "id": 82,
+                    "type": "file"
+                },
+                {
+                    "name": "reference.pdf",
+                    "id": 83,
+                    "type": "file"
+                },
+                {
+                    "name": "tuition_payment2017.pdf",
+                    "id": 84,
+                    "type": "file"
+                },
+                {
+                    "name": "vancouver.pdf",
+                    "id": 85,
+                    "type": "file"
+                }
+            ]
         },
         {
             "name": "Downloads",
-            "id": 5,
+            "id": 86,
             "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "543 handin rquest 06.tiff",
+                    "id": 87,
+                    "type": "file"
+                },
+                {
+                    "name": "Azure_Aug_2018.pdf",
+                    "id": 88,
+                    "type": "file"
+                },
+                {
+                    "name": "boutet_rquests_W06.docx",
+                    "id": 89,
+                    "type": "file"
+                },
+                {
+                    "name": "boutet_rquests_W06.pdf",
+                    "id": 90,
+                    "type": "file"
+                },
+                {
+                    "name": "Costco trip breakdown 181021.xlsx",
+                    "id": 91,
+                    "type": "file"
+                },
+                {
+                    "name": "Define-Milestone-Report.pdf",
+                    "id": 92,
+                    "type": "file"
+                },
+                {
+                    "name": "eao_feedback_recording_181025.m4a",
+                    "id": 93,
+                    "type": "file"
+                },
+                {
+                    "name": "Empathize",
+                    "id": 94,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Empathize-Report-PAAS (1).pdf",
+                            "id": 95,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Empathize-Report-PAAS (2).pdf",
+                            "id": 96,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "ForresterWaveAIBasedTA.pdf",
+                    "id": 97,
+                    "type": "file"
+                },
+                {
+                    "name": "HIJ_2006.pdf",
+                    "id": 98,
+                    "type": "file"
+                },
+                {
+                    "name": "images",
+                    "id": 99,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "brains.jpg",
+                            "id": 100,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Weirui.jpg",
+                            "id": 101,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Weirui.jpg.zip",
+                            "id": 102,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "invoices",
+                    "id": 103,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Nov_2018",
+                            "id": 104,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "aws_Invoice_152318411.pdf",
+                                    "id": 105,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Azure_.pdf",
+                                    "id": 106,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "github.pdf",
+                                    "id": 107,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "gsuite-3502364127.pdf",
+                                    "id": 108,
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oct_2018",
+                            "id": 109,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "aws_Invoice_152318411.pdf",
+                                    "id": 110,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Azure_.pdf",
+                                    "id": 111,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "github.pdf",
+                                    "id": 112,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "gsuite-3502364127.pdf",
+                                    "id": 113,
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Sep_2018",
+                            "id": 114,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "aws_Invoice_152318411.pdf",
+                                    "id": 115,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Azure_.pdf",
+                                    "id": 116,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "github.pdf",
+                                    "id": 117,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "gsuite-3502364127.pdf",
+                                    "id": 118,
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "magic pen paper.pdf",
+                    "id": 119,
+                    "type": "file"
+                },
+                {
+                    "name": "mastercard_Sep20-2018Oct19.pdf",
+                    "id": 120,
+                    "type": "file"
+                },
+                {
+                    "name": "mhealht journal presenation.docx",
+                    "id": 121,
+                    "type": "file"
+                },
+                {
+                    "name": "PAAS-Empathize.pdf",
+                    "id": 122,
+                    "type": "file"
+                },
+                {
+                    "name": "PriSM.pdf",
+                    "id": 123,
+                    "type": "file"
+                },
+                {
+                    "name": "rd1.pdf",
+                    "id": 124,
+                    "type": "file"
+                },
+                {
+                    "name": "readingW06-detail.rtf",
+                    "id": 125,
+                    "type": "file"
+                },
+                {
+                    "name": "RES141339.pdf",
+                    "id": 126,
+                    "type": "file"
+                },
+                {
+                    "name": "Sketch_4.pdf",
+                    "id": 127,
+                    "type": "file"
+                },
+                {
+                    "name": "STIR comments.docx",
+                    "id": 128,
+                    "type": "file"
+                },
+                {
+                    "name": "vibrotactile in VR.pdf",
+                    "id": 129,
+                    "type": "file"
+                },
+                {
+                    "name": "W18-4107.pdf",
+                    "id": 130,
+                    "type": "file"
+                },
+                {
+                    "name": "WSDM2017 Beyond the Words.pdf",
+                    "id": 131,
+                    "type": "file"
+                }
+            ]
         },
         {
-            "name": "Library",
-            "id": 6,
+            "name": "DropBox",
+            "id": 132,
             "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "amy_shared",
+                    "id": 133,
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "book_chapter",
+                    "id": 134,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Chapter template.docx",
+                            "id": 135,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Chapter_v0.2.docx",
+                            "id": 136,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Chapter_v0.3 pboutet.docx",
+                            "id": 137,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Chapter_v0.6.docx",
+                            "id": 138,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Chapter_v0.7 pboutet.docx",
+                            "id": 139,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Example Chapter.docx",
+                            "id": 140,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Product Innovation Pathway.docx",
+                            "id": 141,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "classes",
+                    "id": 142,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "532M",
+                            "id": 143,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "slides",
+                                    "id": 144,
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "lect1.pptx",
+                                            "id": 145,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect2.pptx",
+                                            "id": 146,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect3.pptx",
+                                            "id": 147,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect4.pptx",
+                                            "id": 148,
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "543",
+                            "id": 149,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "slides",
+                                    "id": 150,
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "lect1.pptx",
+                                            "id": 151,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect2.pptx",
+                                            "id": 152,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect3.pptx",
+                                            "id": 153,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect4.pptx",
+                                            "id": 154,
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "544",
+                            "id": 155,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "slides",
+                                    "id": 156,
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "lect1.pptx",
+                                            "id": 157,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect2.pptx",
+                                            "id": 158,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect3.pptx",
+                                            "id": 159,
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "lect4.pptx",
+                                            "id": 160,
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "michael_shared",
+                    "id": 161,
+                    "type": "directory",
+                    "children": []
+                },
+                {
+                    "name": "soccer",
+                    "id": 162,
+                    "type": "directory",
+                    "children": []
+                }
+            ]
         },
         {
-            "name": "Music",
-            "id": 7,
+            "name": "Google Drive",
+            "id": 163,
             "type": "directory",
-            "children": []
-        },
-        {
-            "name": "Pictures",
-            "id": 8,
-            "type": "directory",
-            "children": []
-        },
-        {
-            "name": "Public",
-            "id": 9,
-            "type": "directory",
-            "children": []
+            "children": [
+                {
+                    "name": "534L_project_final_draft.pdf",
+                    "id": 164,
+                    "type": "file"
+                },
+                {
+                    "name": "544 reading.pdf",
+                    "id": 165,
+                    "type": "file"
+                },
+                {
+                    "name": "Artificial Intelligence - A Modern Approach.pdf",
+                    "id": 166,
+                    "type": "file"
+                },
+                {
+                    "name": "Boutet and Palazzi 507.pdf",
+                    "id": 167,
+                    "type": "file"
+                },
+                {
+                    "name": "compatability app.jpg",
+                    "id": 168,
+                    "type": "file"
+                },
+                {
+                    "name": "CPSC 322 assignment 0.pdf",
+                    "id": 169,
+                    "type": "file"
+                },
+                {
+                    "name": "CPSC532M_A1.pdf",
+                    "id": 170,
+                    "type": "file"
+                },
+                {
+                    "name": "First interim-milestone group5.pdf",
+                    "id": 171,
+                    "type": "file"
+                },
+                {
+                    "name": "Jul20-2018Aug20.pdf",
+                    "id": 172,
+                    "type": "file"
+                },
+                {
+                    "name": "L2.pdf",
+                    "id": 173,
+                    "type": "file"
+                },
+                {
+                    "name": "NereusOutline_Scope_20170810.pdf",
+                    "id": 174,
+                    "type": "file"
+                },
+                {
+                    "name": "Pictures",
+                    "id": 175,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Salt Sprint 2018",
+                            "id": 176,
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "DSC05127.JPG",
+                                    "id": 177,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05128.JPG",
+                                    "id": 178,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05129.JPG",
+                                    "id": 179,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05130.JPG",
+                                    "id": 180,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05131.JPG",
+                                    "id": 181,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05132.JPG",
+                                    "id": 182,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05133.JPG",
+                                    "id": 183,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05134.JPG",
+                                    "id": 184,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05135.JPG",
+                                    "id": 185,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05136.JPG",
+                                    "id": 186,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05137.JPG",
+                                    "id": 187,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05138.JPG",
+                                    "id": 188,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05139.JPG",
+                                    "id": 189,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05140.JPG",
+                                    "id": 190,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05141.JPG",
+                                    "id": 191,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05142.JPG",
+                                    "id": 192,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05143.JPG",
+                                    "id": 193,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05144.JPG",
+                                    "id": 194,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05145.JPG",
+                                    "id": 195,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05146.JPG",
+                                    "id": 196,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05147.JPG",
+                                    "id": 197,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05148.JPG",
+                                    "id": 198,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05149.JPG",
+                                    "id": 199,
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Planning with MDP.pdf",
+                    "id": 200,
+                    "type": "file"
+                },
+                {
+                    "name": "Reform-8312018.PDF",
+                    "id": 201,
+                    "type": "file"
+                },
+                {
+                    "name": "tree.jpg",
+                    "id": 202,
+                    "type": "file"
+                },
+                {
+                    "name": "windows HUP.pdf",
+                    "id": 203,
+                    "type": "file"
+                }
+            ]
         }
     ]
 }

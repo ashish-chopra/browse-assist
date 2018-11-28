@@ -138,8 +138,8 @@
             },
 
             tree = d3.tree()
-                .size([2 * Math.PI, 180])
-                .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth),
+                .size([2 * Math.PI, 600])//pat-> 180 was original value
+                .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth),//pat-> 1 : 2 was original value
 
             root = tree(d3.hierarchy(parentCtrl.selectedNode));
 
