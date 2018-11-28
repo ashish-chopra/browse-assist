@@ -106,7 +106,7 @@
                     "type": "file"
                 },
                 {
-                    "name": "CV_181101.docx",
+                    "name": "CV_2018.docx",
                     "id": 22,
                     "type": "file"
                 },
@@ -182,7 +182,7 @@
             "type": "directory",
             "children": [
                 {
-                    "name": "534L_A1.tex",
+                    "name": "A1.tex",
                     "id": 36,
                     "type": "file"
                 },
@@ -488,7 +488,7 @@
                     "type": "file"
                 },
                 {
-                    "name": "eao_feedback_recording_181025.m4a",
+                    "name": "eao_181025.m4a",
                     "id": 93,
                     "type": "file"
                 },
@@ -510,278 +510,363 @@
                     ]
                 },
                 {
-                    "name": "ForresterWaveAIBasedTA.pdf",
+                    "name": "Forrester.pdf",
                     "id": 97,
                     "type": "file"
                 },
                 {
-                    "name": "HIJ_2006.pdf",
+                    "name": "Haptics",
                     "id": 98,
-                    "type": "file"
-                },
-                {
-                    "name": "images",
-                    "id": 99,
                     "type": "directory",
                     "children": [
                         {
-                            "name": "brains.jpg",
+                            "name": "Choi 2013.pdf",
+                            "id": 99,
+                            "type": "file"
+                        },
+                        {
+                            "name": "magic pen paper.pdf",
                             "id": 100,
                             "type": "file"
                         },
                         {
-                            "name": "Weirui.jpg",
+                            "name": "Oram 2014.pdf",
                             "id": 101,
                             "type": "file"
                         },
                         {
-                            "name": "Weirui.jpg.zip",
+                            "name": "Otaduy.pdf",
                             "id": 102,
+                            "type": "file"
+                        },
+                        {
+                            "name": "vibrotactile in VR.pdf",
+                            "id": 103,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "images",
+                    "id": 104,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "brains.jpg",
+                            "id": 105,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Weirui.jpg",
+                            "id": 106,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Weirui.jpg.zip",
+                            "id": 107,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "invoices",
-                    "id": 103,
+                    "id": 108,
                     "type": "directory",
                     "children": [
                         {
-                            "name": "Nov_2018",
-                            "id": 104,
-                            "type": "directory",
-                            "children": [
-                                {
-                                    "name": "aws_Invoice_152318411.pdf",
-                                    "id": 105,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "Azure_.pdf",
-                                    "id": 106,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "github.pdf",
-                                    "id": 107,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "gsuite-3502364127.pdf",
-                                    "id": 108,
-                                    "type": "file"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Oct_2018",
+                            "name": "2018",
                             "id": 109,
                             "type": "directory",
                             "children": [
                                 {
-                                    "name": "aws_Invoice_152318411.pdf",
+                                    "name": "mhealth",
                                     "id": 110,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "Azure_.pdf",
-                                    "id": 111,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "github.pdf",
-                                    "id": 112,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "gsuite-3502364127.pdf",
-                                    "id": 113,
-                                    "type": "file"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Sep_2018",
-                            "id": 114,
-                            "type": "directory",
-                            "children": [
-                                {
-                                    "name": "aws_Invoice_152318411.pdf",
-                                    "id": 115,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "Azure_.pdf",
-                                    "id": 116,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "github.pdf",
-                                    "id": 117,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "gsuite-3502364127.pdf",
-                                    "id": 118,
-                                    "type": "file"
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "Nov_2018",
+                                            "id": 111,
+                                            "type": "directory",
+                                            "children": [
+                                                {
+                                                    "name": "aws_Invoice_152318411.pdf",
+                                                    "id": 112,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "Azure_.pdf",
+                                                    "id": 113,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "github.pdf",
+                                                    "id": 114,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "gsuite-3502364127.pdf",
+                                                    "id": 115,
+                                                    "type": "file"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Oct_2018",
+                                            "id": 116,
+                                            "type": "directory",
+                                            "children": [
+                                                {
+                                                    "name": "aws_Invoice_152318411.pdf",
+                                                    "id": 117,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "Azure_.pdf",
+                                                    "id": 118,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "github.pdf",
+                                                    "id": 119,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "gsuite-3502364127.pdf",
+                                                    "id": 120,
+                                                    "type": "file"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Sep_2018",
+                                            "id": 121,
+                                            "type": "directory",
+                                            "children": [
+                                                {
+                                                    "name": "aws_Invoice_152318411.pdf",
+                                                    "id": 122,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "Azure_.pdf",
+                                                    "id": 123,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "github.pdf",
+                                                    "id": 124,
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "gsuite-3502364127.pdf",
+                                                    "id": 125,
+                                                    "type": "file"
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "name": "magic pen paper.pdf",
-                    "id": 119,
-                    "type": "file"
-                },
-                {
-                    "name": "mastercard_Sep20-2018Oct19.pdf",
-                    "id": 120,
-                    "type": "file"
-                },
-                {
-                    "name": "mhealht journal presenation.docx",
-                    "id": 121,
-                    "type": "file"
-                },
-                {
-                    "name": "PAAS-Empathize.pdf",
-                    "id": 122,
-                    "type": "file"
-                },
-                {
-                    "name": "PriSM.pdf",
-                    "id": 123,
-                    "type": "file"
-                },
-                {
-                    "name": "rd1.pdf",
-                    "id": 124,
-                    "type": "file"
-                },
-                {
-                    "name": "readingW06-detail.rtf",
-                    "id": 125,
-                    "type": "file"
-                },
-                {
-                    "name": "RES141339.pdf",
+                    "name": "mHealth.docx",
                     "id": 126,
                     "type": "file"
                 },
                 {
-                    "name": "Sketch_4.pdf",
+                    "name": "NLP",
                     "id": 127,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Alexander_2015.pdf",
+                            "id": 128,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Huber 2018.pdf",
+                            "id": 129,
+                            "type": "file"
+                        },
+                        {
+                            "name": "P16-1221.pdf",
+                            "id": 130,
+                            "type": "file"
+                        },
+                        {
+                            "name": "W18-4107.pdf",
+                            "id": 131,
+                            "type": "file"
+                        },
+                        {
+                            "name": "WSDM2017.pdf",
+                            "id": 132,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nursing",
+                    "id": 133,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Ballantyne 2013.pdf",
+                            "id": 134,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Gordon 2014.pdf",
+                            "id": 135,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Hunsaker_et_al-2015.pdf",
+                            "id": 136,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Mackay 2011.pdf",
+                            "id": 137,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Pinto_et_al-2015.pdf",
+                            "id": 138,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "PAAS-EMP.pdf",
+                    "id": 139,
+                    "type": "file"
+                },
+                {
+                    "name": "PriSM.pdf",
+                    "id": 140,
+                    "type": "file"
+                },
+                {
+                    "name": "rd1.pdf",
+                    "id": 141,
+                    "type": "file"
+                },
+                {
+                    "name": "readingW06-detail.rtf",
+                    "id": 142,
+                    "type": "file"
+                },
+                {
+                    "name": "RES141339.pdf",
+                    "id": 143,
+                    "type": "file"
+                },
+                {
+                    "name": "Sketch_4.pdf",
+                    "id": 144,
                     "type": "file"
                 },
                 {
                     "name": "STIR comments.docx",
-                    "id": 128,
+                    "id": 145,
                     "type": "file"
                 },
                 {
-                    "name": "vibrotactile in VR.pdf",
-                    "id": 129,
-                    "type": "file"
-                },
-                {
-                    "name": "W18-4107.pdf",
-                    "id": 130,
-                    "type": "file"
-                },
-                {
-                    "name": "WSDM2017 Beyond the Words.pdf",
-                    "id": 131,
+                    "name": "visa_Oct19.pdf",
+                    "id": 146,
                     "type": "file"
                 }
             ]
         },
         {
             "name": "DropBox",
-            "id": 132,
+            "id": 147,
             "type": "directory",
             "children": [
                 {
                     "name": "amy_shared",
-                    "id": 133,
+                    "id": 148,
                     "type": "directory",
                     "children": []
                 },
                 {
                     "name": "book_chapter",
-                    "id": 134,
+                    "id": 149,
                     "type": "directory",
                     "children": [
                         {
                             "name": "Chapter template.docx",
-                            "id": 135,
+                            "id": 150,
                             "type": "file"
                         },
                         {
                             "name": "Chapter_v0.2.docx",
-                            "id": 136,
+                            "id": 151,
                             "type": "file"
                         },
                         {
                             "name": "Chapter_v0.3 pboutet.docx",
-                            "id": 137,
+                            "id": 152,
                             "type": "file"
                         },
                         {
                             "name": "Chapter_v0.6.docx",
-                            "id": 138,
+                            "id": 153,
                             "type": "file"
                         },
                         {
                             "name": "Chapter_v0.7 pboutet.docx",
-                            "id": 139,
+                            "id": 154,
                             "type": "file"
                         },
                         {
                             "name": "Example Chapter.docx",
-                            "id": 140,
+                            "id": 155,
                             "type": "file"
                         },
                         {
                             "name": "Product Innovation Pathway.docx",
-                            "id": 141,
+                            "id": 156,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "classes",
-                    "id": 142,
+                    "id": 157,
                     "type": "directory",
                     "children": [
                         {
                             "name": "532M",
-                            "id": 143,
+                            "id": 158,
                             "type": "directory",
                             "children": [
                                 {
                                     "name": "slides",
-                                    "id": 144,
+                                    "id": 159,
                                     "type": "directory",
                                     "children": [
                                         {
                                             "name": "lect1.pptx",
-                                            "id": 145,
+                                            "id": 160,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect2.pptx",
-                                            "id": 146,
+                                            "id": 161,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect3.pptx",
-                                            "id": 147,
+                                            "id": 162,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect4.pptx",
-                                            "id": 148,
+                                            "id": 163,
                                             "type": "file"
                                         }
                                     ]
@@ -790,32 +875,32 @@
                         },
                         {
                             "name": "543",
-                            "id": 149,
+                            "id": 164,
                             "type": "directory",
                             "children": [
                                 {
                                     "name": "slides",
-                                    "id": 150,
+                                    "id": 165,
                                     "type": "directory",
                                     "children": [
                                         {
                                             "name": "lect1.pptx",
-                                            "id": 151,
+                                            "id": 166,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect2.pptx",
-                                            "id": 152,
+                                            "id": 167,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect3.pptx",
-                                            "id": 153,
+                                            "id": 168,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect4.pptx",
-                                            "id": 154,
+                                            "id": 169,
                                             "type": "file"
                                         }
                                     ]
@@ -824,32 +909,32 @@
                         },
                         {
                             "name": "544",
-                            "id": 155,
+                            "id": 170,
                             "type": "directory",
                             "children": [
                                 {
                                     "name": "slides",
-                                    "id": 156,
+                                    "id": 171,
                                     "type": "directory",
                                     "children": [
                                         {
                                             "name": "lect1.pptx",
-                                            "id": 157,
+                                            "id": 172,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect2.pptx",
-                                            "id": 158,
+                                            "id": 173,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect3.pptx",
-                                            "id": 159,
+                                            "id": 174,
                                             "type": "file"
                                         },
                                         {
                                             "name": "lect4.pptx",
-                                            "id": 160,
+                                            "id": 175,
                                             "type": "file"
                                         }
                                     ]
@@ -860,13 +945,13 @@
                 },
                 {
                     "name": "michael_shared",
-                    "id": 161,
+                    "id": 176,
                     "type": "directory",
                     "children": []
                 },
                 {
                     "name": "soccer",
-                    "id": 162,
+                    "id": 177,
                     "type": "directory",
                     "children": []
                 }
@@ -874,187 +959,187 @@
         },
         {
             "name": "Google Drive",
-            "id": 163,
+            "id": 178,
             "type": "directory",
             "children": [
                 {
                     "name": "534L_project_final_draft.pdf",
-                    "id": 164,
+                    "id": 179,
                     "type": "file"
                 },
                 {
                     "name": "544 reading.pdf",
-                    "id": 165,
+                    "id": 180,
                     "type": "file"
                 },
                 {
                     "name": "Artificial Intelligence - A Modern Approach.pdf",
-                    "id": 166,
+                    "id": 181,
                     "type": "file"
                 },
                 {
                     "name": "Boutet and Palazzi 507.pdf",
-                    "id": 167,
+                    "id": 182,
                     "type": "file"
                 },
                 {
                     "name": "compatability app.jpg",
-                    "id": 168,
+                    "id": 183,
                     "type": "file"
                 },
                 {
                     "name": "CPSC 322 assignment 0.pdf",
-                    "id": 169,
+                    "id": 184,
                     "type": "file"
                 },
                 {
                     "name": "CPSC532M_A1.pdf",
-                    "id": 170,
+                    "id": 185,
                     "type": "file"
                 },
                 {
                     "name": "First interim-milestone group5.pdf",
-                    "id": 171,
+                    "id": 186,
                     "type": "file"
                 },
                 {
                     "name": "Jul20-2018Aug20.pdf",
-                    "id": 172,
+                    "id": 187,
                     "type": "file"
                 },
                 {
                     "name": "L2.pdf",
-                    "id": 173,
+                    "id": 188,
                     "type": "file"
                 },
                 {
-                    "name": "NereusOutline_Scope_20170810.pdf",
-                    "id": 174,
+                    "name": "NereusOutline.pdf",
+                    "id": 189,
                     "type": "file"
                 },
                 {
                     "name": "Pictures",
-                    "id": 175,
+                    "id": 190,
                     "type": "directory",
                     "children": [
                         {
                             "name": "Salt Sprint 2018",
-                            "id": 176,
+                            "id": 191,
                             "type": "directory",
                             "children": [
                                 {
                                     "name": "DSC05127.JPG",
-                                    "id": 177,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05128.JPG",
-                                    "id": 178,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05129.JPG",
-                                    "id": 179,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05130.JPG",
-                                    "id": 180,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05131.JPG",
-                                    "id": 181,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05132.JPG",
-                                    "id": 182,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05133.JPG",
-                                    "id": 183,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05134.JPG",
-                                    "id": 184,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05135.JPG",
-                                    "id": 185,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05136.JPG",
-                                    "id": 186,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05137.JPG",
-                                    "id": 187,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05138.JPG",
-                                    "id": 188,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05139.JPG",
-                                    "id": 189,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05140.JPG",
-                                    "id": 190,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05141.JPG",
-                                    "id": 191,
-                                    "type": "file"
-                                },
-                                {
-                                    "name": "DSC05142.JPG",
                                     "id": 192,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05143.JPG",
+                                    "name": "DSC05128.JPG",
                                     "id": 193,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05144.JPG",
+                                    "name": "DSC05129.JPG",
                                     "id": 194,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05145.JPG",
+                                    "name": "DSC05130.JPG",
                                     "id": 195,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05146.JPG",
+                                    "name": "DSC05131.JPG",
                                     "id": 196,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05147.JPG",
+                                    "name": "DSC05132.JPG",
                                     "id": 197,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05148.JPG",
+                                    "name": "DSC05133.JPG",
                                     "id": 198,
                                     "type": "file"
                                 },
                                 {
-                                    "name": "DSC05149.JPG",
+                                    "name": "DSC05134.JPG",
                                     "id": 199,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05135.JPG",
+                                    "id": 200,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05136.JPG",
+                                    "id": 201,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05137.JPG",
+                                    "id": 202,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05138.JPG",
+                                    "id": 203,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05139.JPG",
+                                    "id": 204,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05140.JPG",
+                                    "id": 205,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05141.JPG",
+                                    "id": 206,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05142.JPG",
+                                    "id": 207,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05143.JPG",
+                                    "id": 208,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05144.JPG",
+                                    "id": 209,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05145.JPG",
+                                    "id": 210,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05146.JPG",
+                                    "id": 211,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05147.JPG",
+                                    "id": 212,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05148.JPG",
+                                    "id": 213,
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DSC05149.JPG",
+                                    "id": 214,
                                     "type": "file"
                                 }
                             ]
@@ -1063,22 +1148,22 @@
                 },
                 {
                     "name": "Planning with MDP.pdf",
-                    "id": 200,
+                    "id": 215,
                     "type": "file"
                 },
                 {
                     "name": "Reform-8312018.PDF",
-                    "id": 201,
+                    "id": 216,
                     "type": "file"
                 },
                 {
                     "name": "tree.jpg",
-                    "id": 202,
+                    "id": 217,
                     "type": "file"
                 },
                 {
                     "name": "windows HUP.pdf",
-                    "id": 203,
+                    "id": 218,
                     "type": "file"
                 }
             ]

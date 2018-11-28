@@ -1,24 +1,54 @@
 {
     "content": [
         {
-            "id": "2_7",
-            "title": "The Empirical findings of testing different menu popups in image editing task",
-            "name": "rquests_192873.pdf",
+            "id": 99,
+            "title": "Vibrotactile Display: Perception, Technology, and Applications",
+            "name": "Choi 2013.pdf",
             "type": "pdf",
-            "author": "Ashish Chopra, Patrick Boutet",
-            "date": "13 Novemeber 2018",
-            "abstract": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestiae mollitia nisi in quis? Explicabo, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia perspiciatis quasi accusamus placeat ab reprehenderit quas ipsa dolorem labore alias? Illum nihil repellat magni quaerat, explicabo odit iste beatae ea.",
-            "image": "menu.png"
+            "author": "Seungmoon Choi and Katherine J. Kuchenbecker",
+            "date": "6 Sep 2013",
+            "abstract": "This paper reviews the technology and applica- tions of vibrotactile display, an effective information transfer modality for the emerging area of haptic media. Our emphasis is on summarizing foundational knowledge in this area and providing implementation guidelines for application designers who do not yet have a background in haptics. Specifically, we explain the relevant human vibrotactile perceptual capabilities, detail the main types of commercial vibrotactile actuators, and describe how to build both monolithic and localized vibrotac- tile displays. We then identify exemplary vibrotactile display systems in application areas ranging from the presentation of physical object properties to broadcasting vibrotactile media content.",
+            "image": "Choi_2013.png"
         },
         {
-            "id": "2_6",
-            "title": "The Ephemeral Adaptation of Anatomical structure in human body",
-            "name": "IEEE_195123873.pdf",
-            "type": "word",
-            "author": "Steve, Abdualai",
-            "date": "6 Oct 2018",
-            "abstract": "Anatomy is the branch of biology concerned with the study of the structure of organisms and their parts. Anatomy is a branch of natural science which deals with the structural organization of living things. It is an old science, having its beginnings in prehistoric times. ",
-            "image": "anatomy.png"
+            "id": 100,
+            "title": "Harold’s Purple Crayon Rendered in Haptics: Large-Stroke, Handheld Ballpoint Force Feedback",
+            "name": "magic pen paper.pdf",
+            "type": "pdf",
+            "author": "Soheil Kianzad and Karon E. MacLean",
+            "date": "4 Mar 2018",
+            "abstract": "An elusive and audacious vision in haptics is the rendering of forces “in the large” – to feel sensations in large gestures, anywhere and anytime. The reality is that delivering force feedback in informal settings and diverse environments suffers from linked constraints. Producing force requires physical grounding, which limits workspace size; meanwhile, expansion impacts affordability and application versatility. Inspired by needs for haptic support of large motions on a surface in applications like embodied conceptual learning, commercial design, and 2D virtual / augmented reality, we present the ballpoint drive. This novel approach circumvents conventional constraints by imposing a new one: motion restricted to rolling on an arbitrary two dimensional surface, and grounding forces generated through friction. We analyze the ballpoint’s design considerations in the context of our framing applications, describe a first prototype and its performance, and assess its potential for further development.",
+            "image": "magic_pen.png"
+        },
+        {
+            "id": 101,
+            "title": "Crafting Diversity in Radiology Image Stack Scrolling: Control and Annotations",
+            "name": "Oram 2014.pdf",
+            "type": "pdf",
+            "author": "Louise Oram, Karon Maclean, Philippe Kruchten, Bruce Forster",
+            "date": "21 Jun 2014",
+            "abstract": "To make a single diagnosis, today’s radiologists must examine thousands of images; yet little effort has been put into refining this time-consuming, repetitive task. Meanwhile, automatic or radiologist-generated annotations may impact how radiologists navigate image stacks as they review lesions of interest. Observation and/or interviews of 19 radiologists revealed that stack scrolling dominated the resulting task examples. We iteratively crafted and obtained radiologist feedback for a variety of prototypes, then evaluated their scrolling and annotation-review support for lay users. With a simplified stack seeded with correct / incorrect annotations, we compared the effect of four scrolling techniques (traditional scrollwheel and click-and-drag, plus sliding-touch, and tilt rate control) and visual vs. haptic annotation cues on scrolling dynamics, detection accuracy and subjective factors. Scrollwheel was fastest overall, and combined visual / haptic annotation cues sped target-finding relative to either modality alone. We share insights on integrating our findings into radiologist practice.",
+            "image": "Oram_2014.png"
+        },
+        {
+            "id": 102,
+            "title": "Representations and Algorithms for Force-Feedback Display",
+            "name": "Otaduy.pdf",
+            "type": "pdf",
+            "author": "Miguel A. Otaduy, Carlos Garre, and Ming C. Lin",
+            "date": "9 JSep 2013",
+            "abstract": "\"Haptic rendering\" or \"haptic display\" can be broadly defined as conveying information about virtual objects or data to a user through the sense of touch. Among all applications of haptic rendering, force-feedback display of contact interactions with rigid and deformable virtual models through the sense of touch has matured considerably over the last decade. In this paper, we present a general framework for force-feedback display of rigid and virtual environments, and we outline its major building blocks. We focus on computational aspects, and we classify algorithms and representations successfully used in the three major subproblems of force-feedback display: collision detection, dynamics simulation, and constrained optimization. In addition, force-feedback display is an integral part of a multimodal experience, often involving both visual and auditory display; therefore, we also discuss the choice of algorithms and representations for force feedback as a part of multimodal display.",
+            "image": "Otaduy.png"
+        },
+        {
+            "id": 103,
+            "title": "Vibro-tactile feedback for VR systems",
+            "name": "vibrotactile in VR.pdf",
+            "type": "pdf",
+            "author": "Gabor Sziebig, Bjorn Solvang, Csaba Kiss, and Peter Korondi",
+            "date": "21 May 2009",
+            "abstract": "Imitation of senses and feedback from virtual reality environments always meant a great problem. Realization of two (sight and hearing) out of the five human senses is indispensable. Simulation of these two senses is not complex issue; on the contrary the other three are quite challenging. This paper describes the development of a vibro-tactile glove which can provide sensory feedback from a virtual environment, either as a stand alone system but most important in combination with sight and audio feedback systems. Instead of implementing real force feedback, the focus is on tactile sensing, as an alternative way of achieving the same feedback. The glove contains six vibration motors on different locations on the hand. These locations include all five fingers, and the palm. Communication with the glove is wireless, enabling free movement for the user. The system is low cost and very small sized which allows for combining it with advanced input devices like a motion capturing suit.",
+            "image": "vibrotactile in vr.png"
         }
     ]
 }
