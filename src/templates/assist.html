@@ -1,8 +1,12 @@
 <div ng-controller="AssistController as assistCtrl" class="assist-wrapper">
-<svg></svg>
-<div class="toolbar">
-    <button class="btn btn-default" uib-popover="to be implemented. Testing knowlege card popover" popover-trigger="'mouseover'">+</button>
-    <button class="btn btn-default">-</button>
-    <input type="text" class="form-control" placeholder="Start typing to filter..">
-</div>
+    <svg></svg>
+    <div class="toolbar">
+        <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Zoom-in">
+            <i class="glyphicon glyphicon-plus"></i>
+        </button>
+        <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Zoom-out">
+            <i class="glyphicon glyphicon-minus"></i>
+        </button>
+        <input type="text" class="form-control" placeholder="Start typing to filter..">
+    </div>
 </div>

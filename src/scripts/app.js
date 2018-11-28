@@ -7,7 +7,8 @@
         ])
         .config(configureApp)
         .controller("RootController", rootController)
-        .controller('AssistController', assistController);
+        .controller('AssistController', assistController)
+        .controller('KnowledgeCardController', knowledgeCardController);
 
 
     configureApp.$inject = ['$urlRouterProvider', '$stateProvider'];
@@ -35,6 +36,7 @@
         vm.currentState = 'home';
         vm.selectedNode = null;
         vm.treeModel = null;
+        vm.knowledgeCardModel = null;
         vm.treeOptions = {
             nodeChildren: "children",
             dirSelectable: true,
@@ -52,6 +54,11 @@
             vm.treeModel = response.data;
         });
 
+        $http.get('data/knowledge.json').then(response => {
+            if (response.data) {
+                vm.knowledgeCardModel = response.data.content;
+            }
+        })
         vm.nodeSelected = function (node, selected) {
             if (node.children) {
                 vm.selectedNode = node;
@@ -75,6 +82,12 @@
 
         vm.back = function () {
             $window.history.back();
+        }
+
+        vm.getKnowledgeCardBy = function (id) {
+            return vm.knowledgeCardModel.filter(item => {
+                return item.id == id;
+            });
         }
         drillTo = function (id) {
             vm.selectedNode = getNodeBy(id);
@@ -113,10 +126,11 @@
         }
     }
 
-    assistController.$inject = ['$element', '$scope'];
-    function assistController($element, $scope) {
+    assistController.$inject = ['$element', '$scope', '$uibModal'];
+    function assistController($element, $scope, $uibModal) {
         var vm = this;
         var parentCtrl = $scope.$parent.rCtrl;
+        var modalInstance;
 
         let
             radialPoint = (x, y) => {
@@ -153,6 +167,32 @@
                 d3.select(this).classed("active", true);
             }).on("mouseout", function () {
                 d3.select(this).classed("active", false);
+            }).on("dblclick", function(d) {
+                console.log('item doubleclicked');
+                if (d.children) {
+                    parentCtrl.takeAction(d.data)
+                }
+            }).on("click", function (d) {
+                if (d.children) {
+                    return;
+                }
+                var id = d.data.id,
+                info = parentCtrl.getKnowledgeCardBy(id);
+                console.log(id, info);
+                if (info.length == 0) {
+                    return;
+                }
+                modalInstance = $uibModal.open({
+                    templateUrl: 'templates/card.html',
+                    controller: 'KnowledgeCardController',
+                    controllerAs: 'kCtrl',
+                    size: 'sm',
+                    resolve: {
+                        data: function() {
+                            return info[0];
+                        }
+                    }
+                });
             });
         
         node.append("image")
@@ -217,6 +257,12 @@
             return "img/icons/" + ico + ".ico";
         }
 
+    }
+
+    knowledgeCardController.$inject = ['data'];
+    function knowledgeCardController(data) {
+        var vm = this;
+        vm.data = data;
     }
 
 }());
