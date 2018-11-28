@@ -128,112 +128,66 @@
 
     assistController.$inject = ['$element', '$scope', '$uibModal'];
     function assistController($element, $scope, $uibModal) {
-        var vm = this;
-        var parentCtrl = $scope.$parent.rCtrl;
-        var modalInstance;
-
-        let
-            radialPoint = (x, y) => {
-                return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
-            },
-
+        var vm = this,
+            modalInstance = null,
+            parentCtrl = $scope.$parent.rCtrl,
             tree = d3.tree()
                 .size([2 * Math.PI, 600])//pat-> 180 was original value
                 .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth),//pat-> 1 : 2 was original value
+            root = tree(d3.hierarchy(parentCtrl.selectedNode)),
+            svg = d3.select("svg"),
+            zoom = d3.zoom()
+                .scaleExtent([0.4, 40])
+                .on("zoom", zoomed);
+        svg.call(zoom).on("dblclick.zoom", null);
 
-            root = tree(d3.hierarchy(parentCtrl.selectedNode));
-
-
-        var svg = d3.select("svg"),
-            width = $element[0].clientWidth,
-            height = $element[0].clientHeight;
-        const g = svg.append("g")
-            .attr("transform", `translate(${width / 2},${height / 2})`);
-        const chart = g.append("g");
-        var link = chart.selectAll(".link")
-            .data(root.links())
-            .enter().append("path")
-            .attr("class", "link")
-            .attr("d", d3.linkRadial()
-                .angle(function (d) { return d.x; })
-                .radius(function (d) { return d.y; }));
-
-        var node = chart.selectAll(".node")
-            .data(root.descendants())
-            .enter().append("g")
-            .attr("class", function (d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
-            .attr("transform", function (d) { return "translate(" + radialPoint(d.x, d.y) + ")"; })
-            .on("mouseover", function () {
-                d3.select(this).classed("active", true);
-            }).on("mouseout", function () {
-                d3.select(this).classed("active", false);
-            }).on("dblclick", function(d) {
-                console.log('item doubleclicked');
-                if (d.children) {
-                    parentCtrl.takeAction(d.data)
-                }
-            }).on("click", function (d) {
-                if (d.children) {
-                    return;
-                }
-                var id = d.data.id,
-                info = parentCtrl.getKnowledgeCardBy(id);
-                console.log(id, info);
-                if (info.length == 0) {
-                    return;
-                }
-                modalInstance = $uibModal.open({
-                    templateUrl: 'templates/card.html',
-                    controller: 'KnowledgeCardController',
-                    controllerAs: 'kCtrl',
-                    size: 'sm',
-                    resolve: {
-                        data: function() {
-                            return info[0];
-                        }
-                    }
-                });
-            });
         
-        node.append("image")
-            .attr("x", -6)
-            .attr("y", -6)
-            .attr("width", 14)
-            .attr("height", 14)
-            .attr("transform", function (d) { return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")"; })
-            .attr("xlink:href", getIcon);
+        vm.width = $element[0].clientWidth;
+        vm.height = $element[0].clientHeight;
+        vm.links = root.links();
+        console.log(vm.links);
+        vm.descendants = root.descendants().reverse();
 
-        node.append("text")
-            .attr("dy", "0.31rem")
-            .attr("x", function (d) { return d.x < Math.PI === !d.children ? 10 : -10; })
-            .attr("text-anchor", function (d) { return d.x < Math.PI === !d.children ? "start" : "end"; })
-            .attr("transform", function (d) { return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")"; })
-            .text(function (d) { return d.data.name; });
-
-        var zoom = d3.zoom()
-            .scaleExtent([1, 40])
-            .translateExtent([[-100, -100], [width + 90, height + 100]])
-            .on("zoom", zoomed);
-
-
-        svg.call(zoom)
-            .on("dblclick.zoom", null);
-
-        function zoomed() {
-            chart.attr("transform", d3.event.transform);
+        vm.getD = function (data) {
+            var link = d3.linkRadial()
+                .angle(function (d) { return d.x; })
+                .radius(function (d) { return d.y; })
+            return link(data);
         }
 
-        function getIcon(d) {
+        vm.isLinkMatching = function (d, keywords) {
+            if (keywords == '') return false;
+            return d.target.data.name.startsWith(keywords);
+        }
+
+        vm.positionTextX = function (d) {
+            return d.x < Math.PI === !d.children ? 15 : -15;
+        }
+
+        vm.anchorText = function (d) {
+            return d.x < Math.PI === !d.children ? "start" : "end";
+        }
+
+        vm.transformText = function (d) {
+            //return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")";
+            return d.x >= Math.PI ? "rotate(180)" : null;
+        }
+        vm.transformNode = function (d) {
+            //return "translate(" + radialPoint(d.x, d.y) + ")";
+            return `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y}, 0)`;
+        }
+        
+        vm.getIcon = function (d) {
             var ico;
             if (d.children) {
                 ico = "folder"
             } else {
-                switch(d.data.name.slice(-4)) {
-                    case ".pdf": 
-                        ico = "pdf"; 
+                switch (d.data.name.slice(-4)) {
+                    case ".pdf":
+                        ico = "pdf";
                         break;
-                    case ".xlsx": 
-                        ico = "excel"; 
+                    case ".xlsx":
+                        ico = "excel";
                         break;
                     case ".zip":
                         ico = "archive";
@@ -255,7 +209,83 @@
                 }
             }
             return "img/icons/" + ico + ".ico";
+
         }
+
+        vm.onNodeDblClick = function (d) {
+            if (d.children) {
+                parentCtrl.takeAction(d.data)
+            }
+        }
+
+        vm.onNodeClick = function (d) {
+            if (d.children) {
+                return;
+            }
+            var id = d.data.id,
+                info = parentCtrl.getKnowledgeCardBy(id);
+            if (info.length == 0) {
+                return;
+            }
+            modalInstance = $uibModal.open({
+                templateUrl: 'templates/card.html',
+                controller: 'KnowledgeCardController',
+                controllerAs: 'kCtrl',
+                size: 'sm',
+                resolve: {
+                    data: function () {
+                        return info[0];
+                    }
+                }
+            });
+        }
+        vm.highlighted = [];
+
+        vm.onKeywordsChange = function() {
+
+            // undo existing highlighting
+            let highlighted = vm.highlighted;
+            if (highlighted.length) {
+                for(node of highlighted) {
+                    setHighlightTone(node, false);
+                }
+                highlighted.length = 0;
+            }
+
+            if (vm.keywords == '' || vm.keywords === '*') return;
+
+            // highlights the new one based on keyword matching.
+            let links = vm.links;
+            for(link of links) {   
+                if (matches(link.target, vm.keywords)) {
+                    setHighlightTone(link.target, true);
+                    highlighted.push(link.target);
+                }
+            }
+        }
+
+        function matches(node, keyword) {
+            const item = node.data.name.toLowerCase();
+            keyword = keyword.toLowerCase();
+            return item.startsWith(keyword);
+        }
+       
+        function setHighlightTone(node, highlighted) {
+            while(node.parent != null) {
+                node.highlighted = highlighted;
+                node = node.parent;
+            }
+        }
+
+        function radialPoint(x, y) {
+            return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
+        }
+
+        function zoomed() {
+            svg.select('g.main').attr("transform", d3.event.transform);
+        }
+        
+       // svg.attr("viewBox", `${vm.width/2} ${vm.height/2} ${vm.width} ${vm.height}`);
 
     }
 
@@ -264,5 +294,7 @@
         var vm = this;
         vm.data = data;
     }
+
+
 
 }());

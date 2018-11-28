@@ -130,7 +130,7 @@ html, body {
 .assist-wrapper > div.toolbar {
     position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     bottom: 0;
     left: 0;
     justify-content: space-between;
@@ -161,6 +161,14 @@ html, body {
    stroke-opacity: 0.4;
    stroke-width: 1.5px;
  }
+
+ path.link-highlighted {
+     fill: none;
+     stroke: #d35400;
+     stroke-opacity: 1;
+     stroke-width: 2.5px;
+ }
+
  g.node {
    cursor: pointer;
  }
