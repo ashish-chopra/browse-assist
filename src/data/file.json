@@ -7,9 +7,9 @@
             "id": "1",
             "children": [
                 { "name": "TA", "id": "1_1" },
-                { "name": "Feedback", "id": "1_2" },
-                { "name": "Marks", "id": "1_3" },
-                { "name": "Lab5", "id": "1_4" },
+                { "name": "Feedback.pdf", "id": "1_2" },
+                { "name": "Marks.docx", "id": "1_3" },
+                { "name": "Lab5.pdf", "id": "1_4" },
                 { "name": "Processing", "id": "1_5" },
                 { "name": "Arduino", "id": "1_6" },
                 { "name": "Internet Explorer", "id": "1_7" }
