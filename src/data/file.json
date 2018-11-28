@@ -11,40 +11,84 @@
         },
         {
             "name": "Desktop",
-<<<<<<< HEAD
-            "id": "1",
-            "children": [
-                { "name": "TA", "id": "1_1" },
-                { "name": "Feedback.pdf", "id": "1_2" },
-                { "name": "Marks.docx", "id": "1_3" },
-                { "name": "Lab5.pdf", "id": "1_4" },
-                { "name": "Processing", "id": "1_5" },
-                { "name": "Arduino", "id": "1_6" },
-                { "name": "Internet Explorer", "id": "1_7" }
-            ]
-=======
             "id": 3,
             "type": "directory",
-            "children": []
->>>>>>> 1c18dc134e131d946b3aa27ec9e1cbc5defdb8d5
+            "children": [
+                { "name": "TA", "id": "1_1" },
+                { "name": "Feedback", "id": "1_2" },
+                { "name": "Marks", "id": "1_3" },
+                { "name": "Lab5", "id": "1_4" },
+                { "name": "Processing", "id": "1_5" },
+                { "name": "Arduino", "id": "1_6" },
+                { "name": "Internet Explorer", "id": "1_7" },
+                { "name": "TA", "id": "11_1" },
+                { "name": "Feedback", "id": "11_2" },
+                { "name": "Marks", "id": "11_3" },
+                { "name": "Lab5", "id": "11_4" },
+                { "name": "Processing", "id": "11_5" },
+                { "name": "Arduino", "id": "11_6" },
+                { "name": "Internet Explorer", "id": "11_7" }
+            ]
         },
         {
             "name": "Documents",
             "id": 4,
             "type": "directory",
-            "children": []
+            "children": [
+                { "name": "Arduino Projects", "id": "2_1" },
+                { "name": "Books", "id": "2_2" },
+                { "name": "Office Templates", "id": "2_3" },
+                { "name": "OneNote Notebooks", "id": "2_4" },
+                { "name": "Python Scripts", "id": "2_5" },
+                { "name": "GitHub", "id": "2_6" },
+                { "name": "UBC", "id": "2_7" },
+                { "name": "TA", "id": "13_1" },
+                { "name": "Feedback", "id": "31_2" },
+                { "name": "Marks", "id": "31_3" },
+                { "name": "Lab5", "id": "31_4" },
+                { "name": "Processing", "id": "31_5" },
+                { "name": "Arduino", "id": "31_6" },
+                { "name": "Internet Explorer", "id": "31_7" },
+                { "name": "TA", "id": "11_31" },
+                { "name": "Feedback", "id": "113_2" },
+                { "name": "Marks", "id": "131_3" },
+                { "name": "Lab5", "id": "131_4" },
+                { "name": "Processing", "id": "131_5" },
+                { "name": "Arduino", "id": "131_6" },
+                { "name": "Internet Explorer", "id": "131_7" }
+            ]
         },
         {
             "name": "Downloads",
             "id": 5,
             "type": "directory",
-            "children": []
+            "children": [
+                { "name": "543_Lab5", "id": "3_1", 
+                    "children": [
+                        { "name": "543_Lab4", "id": "33_2" },
+                        { "name": "543_Lab3", "id": "33_3" },
+                        { "name": "angular-ui-tree", "id": "33_4" },
+                        { "name": "a1.pdf", "id": "33_5" }
+                    ] },
+                { "name": "543_Lab4", "id": "3_2" },
+                { "name": "543_Lab3", "id": "3_3" },
+                { "name": "angular-ui-tree", "id": "3_4" },
+                { "name": "a1.pdf", "id": "3_5" }
+            ]
         },
         {
             "name": "Library",
             "id": 6,
             "type": "directory",
-            "children": []
+            "children": [
+                { "name": "Arduino Projects", "id": "22_1" },
+                { "name": "Books", "id": "22_2" },
+                { "name": "Office Templates", "id": "22_3" },
+                { "name": "OneNote Notebooks", "id": "22_4" },
+                { "name": "Python Scripts", "id": "22_5" },
+                { "name": "GitHub", "id": "22_6" },
+                { "name": "UBC", "id": "22_7" }
+            ]
         },
         {
             "name": "Music",
@@ -56,13 +100,57 @@
             "name": "Pictures",
             "id": 8,
             "type": "directory",
-            "children": []
+            "children": [
+                { "name": "Arduino Projects", "id": "2_1" },
+                { "name": "Books", "id": "2_2" },
+                { "name": "Office Templates", "id": "2_3" },
+                { "name": "OneNote Notebooks", "id": "2_4" },
+                { "name": "Python Scripts", "id": "2_5" },
+                { "name": "GitHub", "id": "2_6" },
+                { "name": "UBC", "id": "2_7" },
+                { "name": "TA", "id": "13_1" },
+                { "name": "Feedback", "id": "31_2" },
+                { "name": "Marks", "id": "31_3" },
+                { "name": "Lab5", "id": "31_4" },
+                { "name": "Processing", "id": "31_5" },
+                { "name": "Arduino", "id": "31_6" },
+                { "name": "Internet Explorer", "id": "31_7" },
+                { "name": "TA", "id": "11_31" },
+                { "name": "Feedback", "id": "113_2" },
+                { "name": "Marks", "id": "131_3" },
+                { "name": "Lab5", "id": "131_4" },
+                { "name": "Processing", "id": "131_5" },
+                { "name": "Arduino", "id": "131_6" },
+                { "name": "Internet Explorer", "id": "131_7" }
+            ]
         },
         {
             "name": "Public",
             "id": 9,
             "type": "directory",
-            "children": []
+            "children": [
+                { "name": "Arduino Projects", "id": "2_1" },
+                { "name": "Books", "id": "2_2" },
+                { "name": "Office Templates", "id": "2_3" },
+                { "name": "OneNote Notebooks", "id": "2_4" },
+                { "name": "Python Scripts", "id": "2_5" },
+                { "name": "GitHub", "id": "2_6" },
+                { "name": "UBC", "id": "2_7" },
+                { "name": "TA", "id": "13_1" },
+                { "name": "Feedback", "id": "31_2" },
+                { "name": "Marks", "id": "31_3" },
+                { "name": "Lab5", "id": "31_4" },
+                { "name": "Processing", "id": "31_5" },
+                { "name": "Arduino", "id": "31_6" },
+                { "name": "Internet Explorer", "id": "31_7" },
+                { "name": "TA", "id": "11_31" },
+                { "name": "Feedback", "id": "113_2" },
+                { "name": "Marks", "id": "131_3" },
+                { "name": "Lab5", "id": "131_4" },
+                { "name": "Processing", "id": "131_5" },
+                { "name": "Arduino", "id": "131_6" },
+                { "name": "Internet Explorer", "id": "131_7" }
+            ]
         }
     ]
 }

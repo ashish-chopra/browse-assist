@@ -132,19 +132,21 @@
             modalInstance = null,
             parentCtrl = $scope.$parent.rCtrl,
             tree = d3.tree()
-                .size([2 * Math.PI, 180])
+                .size([2 * Math.PI, $element[0].clientWidth/2])
                 .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth),
             root = tree(d3.hierarchy(parentCtrl.selectedNode)),
             svg = d3.select("svg"),
             zoom = d3.zoom()
-                .scaleExtent([1, 40])
+                .scaleExtent([0.4, 40])
                 .on("zoom", zoomed);
         svg.call(zoom).on("dblclick.zoom", null);
 
+        
         vm.width = $element[0].clientWidth;
         vm.height = $element[0].clientHeight;
         vm.links = root.links();
-        vm.descendants = root.descendants();
+        console.log(vm.links);
+        vm.descendants = root.descendants().reverse();
 
         vm.getD = function (data) {
             var link = d3.linkRadial()
@@ -155,7 +157,7 @@
 
         vm.isLinkMatching = function (d, keywords) {
             if (keywords == '') return false;
-            return d.target.data.name.toLowerCase().startsWith(keywords.toLowerCase());
+            return d.target.data.name.startsWith(keywords);
         }
 
         vm.positionTextX = function (d) {
@@ -167,15 +169,14 @@
         }
 
         vm.transformText = function (d) {
-            return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")";
+            //return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")";
+            return d.x >= Math.PI ? "rotate(180)" : null;
         }
         vm.transformNode = function (d) {
-            return "translate(" + radialPoint(d.x, d.y) + ")";
+            //return "translate(" + radialPoint(d.x, d.y) + ")";
+            return `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y}, 0)`;
         }
-        vm.transformImage = function (d) {
-            return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")";
-        }
-
+        
         vm.getIcon = function (d) {
             var ico;
             if (d.children) {
@@ -238,6 +239,43 @@
                 }
             });
         }
+        vm.highlighted = [];
+
+        vm.onKeywordsChange = function() {
+
+            // undo existing highlighting
+            let highlighted = vm.highlighted;
+            if (highlighted.length) {
+                for(node of highlighted) {
+                    setHighlightTone(node, false);
+                }
+                highlighted.length = 0;
+            }
+
+            if (vm.keywords == '' || vm.keywords === '*') return;
+
+            // highlights the new one based on keyword matching.
+            let links = vm.links;
+            for(link of links) {   
+                if (matches(link.target, vm.keywords)) {
+                    setHighlightTone(link.target, true);
+                    highlighted.push(link.target);
+                }
+            }
+        }
+
+        function matches(node, keyword) {
+            const item = node.data.name.toLowerCase();
+            keyword = keyword.toLowerCase();
+            return item.startsWith(keyword);
+        }
+       
+        function setHighlightTone(node, highlighted) {
+            while(node.parent != null) {
+                node.highlighted = highlighted;
+                node = node.parent;
+            }
+        }
 
         function radialPoint(x, y) {
             return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
@@ -246,6 +284,8 @@
         function zoomed() {
             svg.select('g.main').attr("transform", d3.event.transform);
         }
+        
+       // svg.attr("viewBox", `${vm.width/2} ${vm.height/2} ${vm.width} ${vm.height}`);
 
     }
 

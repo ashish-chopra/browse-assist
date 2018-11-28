@@ -130,7 +130,7 @@ html, body {
 .assist-wrapper > div.toolbar {
     position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     bottom: 0;
     left: 0;
     justify-content: space-between;
