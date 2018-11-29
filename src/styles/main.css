@@ -150,6 +150,11 @@ html, body {
  }
  .node.active text {
    font-weight: bold;
+   font-size: 20px;
+ }
+ .node.active image {
+     width: 18px;
+     height: 18px;
  }
  .node--internal text {
    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;

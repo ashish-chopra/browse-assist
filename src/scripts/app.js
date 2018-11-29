@@ -89,7 +89,7 @@
                 return item.id == id;
             });
         }
-        
+
         drillTo = function (id) {
             vm.selectedNode = getNodeBy(id);
             vm.rootId = vm.selectedNode.id;
@@ -142,7 +142,7 @@
                 .on("zoom", zoomed);
         svg.call(zoom).on("dblclick.zoom", null);
 
-        
+        console.log(parentCtrl.selectedNode);
         vm.width = $element[0].clientWidth;
         vm.height = $element[0].clientHeight;
         vm.links = root.links();
@@ -264,6 +264,13 @@
             }
         }
 
+        vm.onNodeMouseOver = function(node) {
+            node.active = true;
+        }
+
+        vm.onNodeMouseOut = function(node) {
+            node.active = false;
+        }
         function matches(node, keyword) {
             const item = node.data.name.toLowerCase();
             keyword = keyword.toLowerCase();
