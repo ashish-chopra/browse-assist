@@ -7,7 +7,7 @@ import os
 
 
 #global id counter
-myId = 1
+myId = 10000
 
 def path_to_dict(path):
     global myId
@@ -39,9 +39,8 @@ def main():
         #    print(x)
 
 
-        data = (json.dumps(path_to_dict('/Users/pboutet/Downloads/544/Computer')))
+        data = (json.dumps(path_to_dict('C:\\Users\\Ashish Chopra\\Documents\\UBC\\TA\\CS344-2018W1')))
         print(data)
-        print(myId)
 
         #with open("test1.json", "w") as write_file:
         #    json.dump(data, write_file)

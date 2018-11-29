@@ -1,5 +1,5 @@
 <div ng-controller="AssistController as aCtrl" class="assist-wrapper">
-    <svg style="font:5px sans-serif">
+    <svg>
         <g class="main" ng-attr-transform="translate({{aCtrl.width / 2}}, {{aCtrl.height / 2}})">
             <g>
                 <path ng-attr-class="link {{ item.target.highlighted ? 'link-highlighted': ''}}" 
@@ -20,7 +20,7 @@
             </g>
         </g>
     </svg>
-    <div class="toolbar" uib-popover="Check this out" popover-is-open="vm.helpModal">
+    <div class="toolbar">
         <!-- <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Zoom-in">
             <i class="glyphicon glyphicon-plus"></i>
         </button>

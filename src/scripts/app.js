@@ -89,6 +89,7 @@
                 return item.id == id;
             });
         }
+        
         drillTo = function (id) {
             vm.selectedNode = getNodeBy(id);
             vm.rootId = vm.selectedNode.id;
@@ -169,11 +170,9 @@
         }
 
         vm.transformText = function (d) {
-            //return "rotate(" + (d.x < Math.PI ? d.x - Math.PI / 2 : d.x + Math.PI / 2) * 180 / Math.PI + ")";
             return d.x >= Math.PI ? "rotate(180)" : null;
         }
         vm.transformNode = function (d) {
-            //return "translate(" + radialPoint(d.x, d.y) + ")";
             return `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y}, 0)`;
         }
         
@@ -198,6 +197,7 @@
                         ico = "image";
                         break;
                     case ".ppt":
+                    case ".pptx":
                         ico = "powerpoint";
                         break;
                     case ".txt":
@@ -284,8 +284,6 @@
         function zoomed() {
             svg.select('g.main').attr("transform", d3.event.transform);
         }
-        
-       // svg.attr("viewBox", `${vm.width/2} ${vm.height/2} ${vm.width} ${vm.height}`);
 
     }
 
