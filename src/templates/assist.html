@@ -1,15 +1,17 @@
 <div ng-controller="AssistController as aCtrl" class="assist-wrapper">
-    <svg style="font:5px sans-serif">
+    <svg>
         <g class="main" ng-attr-transform="translate({{aCtrl.width / 2}}, {{aCtrl.height / 2}})">
             <g>
                 <path ng-attr-class="link {{ item.target.highlighted ? 'link-highlighted': ''}}" 
                       ng-attr-d="{{aCtrl.getD(item)}}" 
                       ng-repeat="item in aCtrl.links"></path>
                 <g ng-attr-transform="{{aCtrl.transformNode(item)}}" 
-                   ng-class="{'node': true, 'node--internal': item.children, 'node--leaf': !item.children, 'active': aCtrl.isActive}"
+                   ng-class="{'node': true, 'node--internal': item.children, 'node--leaf': !item.children, 'active': item.active}"
                    ng-repeat="item in aCtrl.descendants"
                    ng-click="aCtrl.onNodeClick(item)"
-                   ng-dblclick="aCtrl.onNodeDblClick(item)">
+                   ng-dblclick="aCtrl.onNodeDblClick(item)"
+                   ng-mouseover="aCtrl.onNodeMouseOver(item)"
+                   ng-mouseout="aCtrl.onNodeMouseOut(item)">
                     <image x="0" y="-6" width="14" height="14" 
                            ng-attr-href="{{aCtrl.getIcon(item)}}"></image>
                     <text dy="0.31em"
@@ -20,14 +22,14 @@
             </g>
         </g>
     </svg>
-    <div class="toolbar" uib-popover="Check this out" popover-is-open="vm.helpModal">
+    <div class="toolbar">
         <!-- <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Zoom-in">
             <i class="glyphicon glyphicon-plus"></i>
         </button>
         <button class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Zoom-out">
             <i class="glyphicon glyphicon-minus"></i>
         </button> -->
-        <div ng-if="aCtrl.highlighted.length">{{aCtrl.highlighted.length}} files found.</div>
+        <div ng-if="aCtrl.highlighted.length">{{aCtrl.highlighted.length}} files highlighted.</div>
         <input type="text" ng-model="aCtrl.keywords" ng-change="aCtrl.onKeywordsChange()" class="form-control" placeholder="Start typing to filter..">
     </div>
 </div>
