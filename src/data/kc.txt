@@ -1,3 +1,5 @@
+Combine this file with "Task sequencing" google sheet in Test 2 folder
+
 NLP
 
 1. Find the paper about a neural network toplogy enhancement.
