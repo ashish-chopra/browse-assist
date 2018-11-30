@@ -99,6 +99,106 @@
             "date": "24 Apr 2014",
             "abstract": "To examine the health-related quality of life and psychological well-being of patients with benign prostatic hyperplasia and identify the predictive factors of health-related quality of life. The health-related quality of life of patients with benign prostatic hyperplasia was poor, and their psychological well-being was severely affected.",
             "image": ""
+        },//text only
+        {
+            "id": 10291,
+            "title": "Hipikat: A Project Memory for Software Development",
+            "name": "01463229.pdf",
+            "type": "pdf",
+            "author": "Davor Cubrani􏰁c, Gail C. Murphy, Janice Singer, and Kellogg S. Booth",
+            "date": "6 Jun 2005",
+            "abstract": "Sociological and technical difficulties, such as a lack of informal encounters, can make it difficult for new members of noncollocated software development teams to learn from their more experienced colleagues. To address this situation, we have developed a tool, named Hipikat, that provides developers with efficient and effective access to the group memory for a software development project that is implicitly formed by all of the artifacts produced during the development. This project memory is built automatically with little or no change to existing work practices. After describing the Hipikat tool, we present two studies investigating Hipikat’s usefulness in software modification tasks. One study evaluated the usefulness of Hipikat’s recommendations on a sample of 20 modification tasks performed on the Eclipse Java IDE during the development of release 2.1 of the Eclipse software. We describe the study, present quantitative measures of Hipikat’s performance, and describe in detail three cases that illustrate a range of issues that we have identified in the results. In the other study, we evaluated whether software developers who are new to a project can benefit from the artifacts that Hipikat recommends from the project memory. We describe the study, present qualitative observations, and suggest implications of using project memory as a learning aid for project newcomers.",
+            "image": ""
+        },
+        {
+            "id": 10291,
+            "title": "Struggles of New College Graduates in their First Software Development Job",
+            "name": "Begel 2008.pdf",
+            "type": "pdf",
+            "author": "Andrew Begel and Beth Simon",
+            "date": "12 Mar 2008",
+            "abstract": "How do new college graduates experience their first software development jobs? In what ways are they prepared by their educational experiences, and in what ways do they struggle to be productive in their new positions? We report on a “fly-on-the- wall” observational study of eight recent college graduates in their first six months of a software development position at Microsoft Corporation. After a total of 85 hours of on-the-job observation, we report on the common abilities evidenced by new software developers including how to program, how to write design specifications, and evidence of persistence strategies for problem- solving. We also classify some of the common ways new software developers were observed getting stuck: communication, collaboration, technical, cognition, and orientation. We report on some common misconceptions of new developers which often frustrate them and hinder them in their jobs, and conclude with recommendations to align Computer Science curricula with the observed needs of new professional developers.",
+            "image": ""
+        },
+        {
+            "id": 10291,
+            "title": "Customized Awareness: Recommending Relevant External Change Events",
+            "name": "icse_2010_holmes.pdf",
+            "type": "pdf",
+            "author": "Reid Holmes and Robert J. Walker",
+            "date": "2 May 2012",
+            "abstract": "It is often assumed that developers’ view of their system and its environment is always consistent with everyone else’s; in practice, this assumption can be false, as the developer has little practical control over changes to the environments in which their code will be deployed. To proactively respond to such situations, developers must constantly monitor a flood of information involving changes to the deployment environ- ments; unfortunately, the vast majority of this information is irrelevant to the individual developer, and its sheer volume makes it likely that infrequent change events of relevance are overlooked. As a result, errors may arise at deployment time that the developer does not immediately detect. This paper presents a recommendation approach for filter- ing the flood of change events on deployment dependencies to those that are most likely to cause problems for the indi- vidual developer. The approach is evaluated for its ability to drastically filter irrelevant details, while being unlikely to filter important ones. The relevance of the results is as- sessed on the basis of deployment problems that would have historically occurred within a set of industrial systems.",
+            "image": ""
+        },
+        {
+            "id": 10291,
+            "title": "Why Good Developers Write Bad Code: An Observational Case Study of the Impacts of Organizational Factors on Software Quality",
+            "name": "icse15lavallee.pdf",
+            "type": "pdf",
+            "author": "Mathieu Lavallée, Pierre N. Robillard",
+            "date": "12 Apr 2015",
+            "abstract": "How can organizational factors such as structure and culture have an impact on the working conditions of developers? This study is based on ten months of observation of an in-house software development project within a large telecommunications company. The observation was conducted during mandatory weekly status meetings, where technical and managerial issues were raised and discussed. Preliminary results show that many decisions made under the pressure of certain organizational factors negatively affected software quality. This paper describes cases depicting the complexity of organizational factors and reports on ten issues that have had a negative impact on quality, followed by suggested avenues for corrective action.",
+            "image": ""
+        },
+        {
+            "id": 10291,
+            "title": "Sourcerer: mining and searching internet-scale software repositories",
+            "name": "Linstead2009_Article_SourcererMiningAndSearchingInt.pdf",
+            "type": "pdf",
+            "author": "Erik Linstead, Sushil Bajracharya, Trung Ngo, Paul Rigor, Cristina Lopes, Pierre Baldi",
+            "date": "16 Sep 2007",
+            "abstract": "Large repositories of source code available over the Internet, or within large organizations, create new challenges and opportunities for data mining and sta- tistical machine learning. Here we first develop Sourcerer, an infrastructure for the automated crawling, parsing, fingerprinting, and database storage of open source soft- ware on an Internet-scale. In one experiment, we gather 4,632 Java projects from SourceForge and Apache totaling over 38million lines of code from 9,250 develo- pers. Simple statistical analyses of the data first reveal robust power-law behavior for package, method call, and lexical containment distributions. We then develop and apply unsupervised, probabilistic, topic and author-topic (AT) models to automatically discover the topics embedded in the code and extract topic-word, document-topic, and AT distributions.",
+            "image": ""
+        },//text + image
+        {
+            "id": 10338,
+            "title": "Geography of British Columbia",
+            "name": "geography1.pdf",
+            "type": "pdf",
+            "author": "Patrick Boutet and Ahsish Chopra",
+            "date": "24 Apr 2014",
+            "abstract": "British Columbia is customarily divided into three main regions, the Interior, the Coast and the Lower Mainland (though the last-named is technically part of the Coast). These are broken up by a loose and often overlapping system of cultural-geographic regions, often based on river basins but sometimes spanning them. Examples of the former would be the Kootenays, the Okanagan, and the Chilcotin, while of the latter would be the Lillooet Country and Cariboo. Important subareas of these include the Fraser Valley, part of the Lower Mainland, the Fraser Canyon (which overlaps with various regions) and the Robson Valley, which is the uppermost basin of the Fraser River southeast of Prince George. Vancouver Island is seen as its own region within the Coast, as are the Haida Gwaii (Queen Charlotte Islands) and the Gulf Islands.",
+            "image": "BC_mountains.png"
+        },
+        {
+            "id": 10338,
+            "title": "Great Lakes",
+            "name": "geography2.pdf",
+            "type": "pdf",
+            "author": "Coon, W.F. and R.A. Sheets",
+            "date": "2 Sep 2018",
+            "abstract": "The Great Lakes are the largest group of freshwater lakes on Earth by total area, and second largest by total volume, containing 21% of the world's surface fresh water by volume.[2][3][4] The total surface is 94,250 square miles (244,106 km2), and the total volume (measured at the low water datum) is 5,439 cubic miles (22,671 km3),[5] slightly less than the volume of Lake Baikal (23,615 km³, 22–23% of the world's surface fresh water). Due to their sea-like characteristics (rolling waves, sustained winds, strong currents, great depths, and distant horizons) the five Great Lakes have also long been referred to as inland seas.[6] Not counting Lake Michigan-Huron, Lake Superior is the second largest lake in the world by area, and the largest freshwater lake by area. Lake Michigan is the largest lake that is entirely within one country.",
+            "image": "Great_Lakes.png"
+        },
+        {
+            "id": 10338,
+            "title": "Geography of Africa",
+            "name": "geography3.pdf",
+            "type": "pdf",
+            "author": "Pamela A. Ratner and Katherine J. Kuchenbecker",
+            "date": "21 Oct 2016",
+            "abstract": "Separated from Europe by the Mediterranean Sea[1] and from much of Asia by the Red Sea, Africa is joined to Asia at its northeast extremity by the Isthmus of Suez[1] (which in transected by the Suez Canal), 130 km (81 mi) wide. For geopolitical purposes, the Sinai Peninsula of Egypt – east on the Suez Canal – is often considered part of Africa. From the most northerly point, Ras ben Sakka in Tunisia, at 37°21′ N, to the more southerly point, Cape Agulhas in South Africa, 34°51′15″ S, is a distance approximately of 8,000 km (5,000 mi); from Cap-Vert, 17°31′13″W, the westernmost point, to Ras Hafun in Somalia, 51°27′52″ E, the most easterly projection, is a distance (also approximately) of 7,400 km (4,600 mi).",
+            "image": "africa_geography.png"
+        },
+        {
+            "id": 10338,
+            "title": "Volcanos",
+            "name": "geography4.pdf",
+            "type": "pdf",
+            "author": "Hong-Gu He and Joy L. Johnson",
+            "date": "1 Apr 2015",
+            "abstract": "Earth's volcanoes occur because its crust is broken into 17 major, rigid tectonic plates that float on a hotter, softer layer in its mantle.[1] Therefore, on Earth, volcanoes are generally found where tectonic plates are diverging or converging, and most are found underwater. For example, a mid-oceanic ridge, such as the Mid-Atlantic Ridge, has volcanoes caused by divergent tectonic plates whereas the Pacific Ring of Fire has volcanoes caused by convergent tectonic plates. Volcanoes can also form where there is stretching and thinning of the crust's plates, e.g., in the East African Rift and the Wells Gray-Clearwater volcanic field and Rio Grande Rift in North America.",
+            "image": "volcanos.png"
+        },
+        {
+            "id": 10338,
+            "title": "Islands",
+            "name": "geography5.pdf",
+            "type": "pdf",
+            "author": "Philippe Kruchten and Bruce Forster",
+            "date": "3 May 2011",
+            "abstract": "An island or isle is any piece of sub-continental land that is surrounded by water.[2] Very small islands such as emergent land features on atolls can be called islets, skerries, cays or keys. An island in a river or a lake island may be called an eyot or ait, and a small island off the coast may be called a holm. A grouping of geographically or geologically related islands is called an archipelago, such as the Philippines.",
+            "image": "islands.png"
         }
         
     ]
