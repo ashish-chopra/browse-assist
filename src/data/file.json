@@ -1481,243 +1481,371 @@
                     "type": "file"
                 },
                 {
-                    "name": "Artificial Intelligence - A Modern Approach.pdf",
+                    "name": "Anatomy",
                     "id": 10271,
-                    "type": "file"
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "journal2002811.pdf",
+                            "id": 10272,
+                            "type": "file"
+                        },
+                        {
+                            "name": "journal4160172.pdf",
+                            "id": 10273,
+                            "type": "file"
+                        },
+                        {
+                            "name": "journal892343243.pdf",
+                            "id": 10274,
+                            "type": "file"
+                        },
+                        {
+                            "name": "journal9837483.pdf",
+                            "id": 10275,
+                            "type": "file"
+                        },
+                        {
+                            "name": "s49801716670.pdf",
+                            "id": 10276,
+                            "type": "file"
+                        }
+                    ]
                 },
                 {
-                    "name": "Azure_Aug_2018.pdf",
-                    "id": 10272,
-                    "type": "file"
-                },
-                {
-                    "name": "Boutet and Palazzi 507.pdf",
-                    "id": 10273,
-                    "type": "file"
-                },
-                {
-                    "name": "boutet_rquests_W06.docx",
-                    "id": 10274,
-                    "type": "file"
-                },
-                {
-                    "name": "boutet_rquests_W06.pdf",
-                    "id": 10275,
-                    "type": "file"
-                },
-                {
-                    "name": "compatability app.jpg",
-                    "id": 10276,
-                    "type": "file"
-                },
-                {
-                    "name": "Costco trip breakdown 181021.xlsx",
+                    "name": "Artificial Intelligence.pdf",
                     "id": 10277,
                     "type": "file"
                 },
                 {
-                    "name": "CPSC 322 assignment 0.pdf",
+                    "name": "Azure_Aug_2018.pdf",
                     "id": 10278,
                     "type": "file"
                 },
                 {
-                    "name": "CPSC532M_A1.pdf",
+                    "name": "Boutet and Palazzi 507.pdf",
                     "id": 10279,
                     "type": "file"
                 },
                 {
-                    "name": "Define-Milestone-Report.pdf",
+                    "name": "boutet_rquests_W06.docx",
                     "id": 10280,
                     "type": "file"
                 },
                 {
-                    "name": "eao_181025.m4a",
+                    "name": "boutet_rquests_W06.pdf",
                     "id": 10281,
                     "type": "file"
                 },
                 {
-                    "name": "Empathize",
+                    "name": "Chemistry",
                     "id": 10282,
                     "type": "directory",
                     "children": [
                         {
-                            "name": "Empathize-Report-PAAS (1).pdf",
+                            "name": "S030142150400.pdf",
                             "id": 10283,
                             "type": "file"
                         },
                         {
-                            "name": "Empathize-Report-PAAS (2).pdf",
+                            "name": "S1503382728.pdf",
                             "id": 10284,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S18722040076.pdf",
+                            "id": 10285,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S22141812163.pdf",
+                            "id": 10286,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S83870550659.pdf",
+                            "id": 10287,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "compatability app.jpg",
+                    "id": 10288,
+                    "type": "file"
+                },
+                {
+                    "name": "Costco trip breakdown 181021.xlsx",
+                    "id": 10289,
+                    "type": "file"
+                },
+                {
+                    "name": "CPSC 322 assignment 0.pdf",
+                    "id": 10290,
+                    "type": "file"
+                },
+                {
+                    "name": "CPSC532M_A1.pdf",
+                    "id": 10291,
+                    "type": "file"
+                },
+                {
+                    "name": "Define-Milestone-Report.pdf",
+                    "id": 10292,
+                    "type": "file"
+                },
+                {
+                    "name": "eao_181025.m4a",
+                    "id": 10293,
+                    "type": "file"
+                },
+                {
+                    "name": "Education",
+                    "id": 10294,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "S0355161483.pdf",
+                            "id": 10295,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S0803551637.pdf",
+                            "id": 10296,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S0883035516.pdf",
+                            "id": 10297,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S0883433035.pdf",
+                            "id": 10298,
+                            "type": "file"
+                        },
+                        {
+                            "name": "S3551574234.pdf",
+                            "id": 10299,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Empathize",
+                    "id": 10300,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "Empathize-Report-PAAS (1).pdf",
+                            "id": 10301,
+                            "type": "file"
+                        },
+                        {
+                            "name": "Empathize-Report-PAAS (2).pdf",
+                            "id": 10302,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "First interim-milestone group5.pdf",
-                    "id": 10285,
+                    "id": 10303,
                     "type": "file"
                 },
                 {
                     "name": "Forrester.pdf",
-                    "id": 10286,
+                    "id": 10304,
                     "type": "file"
                 },
                 {
-                    "name": "Haptics",
-                    "id": 10287,
+                    "name": "Geography",
+                    "id": 10305,
                     "type": "directory",
                     "children": [
                         {
-                            "name": "Choi 2013.pdf",
-                            "id": 10288,
+                            "name": "geography1.pdf",
+                            "id": 10306,
                             "type": "file"
                         },
                         {
-                            "name": "lect3.pptx",
-                            "id": 10289,
+                            "name": "geography2.pdf",
+                            "id": 10307,
                             "type": "file"
                         },
                         {
-                            "name": "lect4.pptx",
-                            "id": 10290,
+                            "name": "geography3.pdf",
+                            "id": 10308,
                             "type": "file"
                         },
                         {
-                            "name": "magic pen paper.pdf",
-                            "id": 10291,
+                            "name": "geography4.pdf",
+                            "id": 10309,
                             "type": "file"
                         },
                         {
-                            "name": "Oram 2014.pdf",
-                            "id": 10292,
+                            "name": "geography5.pdf",
+                            "id": 10310,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Haptics",
+                    "id": 10311,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "2674872.pptx",
+                            "id": 10312,
                             "type": "file"
                         },
                         {
-                            "name": "Otaduy.pdf",
-                            "id": 10293,
+                            "name": "72763872.pdf",
+                            "id": 10313,
                             "type": "file"
                         },
                         {
-                            "name": "vibrotactile in VR.pdf",
-                            "id": 10294,
+                            "name": "82139339.pdf",
+                            "id": 10314,
+                            "type": "file"
+                        },
+                        {
+                            "name": "8237223.pptx",
+                            "id": 10315,
+                            "type": "file"
+                        },
+                        {
+                            "name": "82873834.pdf",
+                            "id": 10316,
+                            "type": "file"
+                        },
+                        {
+                            "name": "82928327.pdf",
+                            "id": 10317,
+                            "type": "file"
+                        },
+                        {
+                            "name": "9374833.pdf",
+                            "id": 10318,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "images",
-                    "id": 10295,
+                    "id": 10319,
                     "type": "directory",
                     "children": [
                         {
                             "name": "brains.jpg",
-                            "id": 10296,
+                            "id": 10320,
                             "type": "file"
                         },
                         {
                             "name": "Weirui.jpg",
-                            "id": 10297,
+                            "id": 10321,
                             "type": "file"
                         },
                         {
                             "name": "Weirui.jpg.zip",
-                            "id": 10298,
+                            "id": 10322,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "invoices",
-                    "id": 10299,
+                    "id": 10323,
                     "type": "directory",
                     "children": [
                         {
                             "name": "2018",
-                            "id": 10300,
+                            "id": 10324,
                             "type": "directory",
                             "children": [
                                 {
                                     "name": "mhealth",
-                                    "id": 10301,
+                                    "id": 10325,
                                     "type": "directory",
                                     "children": [
                                         {
                                             "name": "Nov_2018",
-                                            "id": 10302,
+                                            "id": 10326,
                                             "type": "directory",
                                             "children": [
                                                 {
                                                     "name": "aws_Invoice_152318411.pdf",
-                                                    "id": 10303,
+                                                    "id": 10327,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "Azure_.pdf",
-                                                    "id": 10304,
+                                                    "id": 10328,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "github.pdf",
-                                                    "id": 10305,
+                                                    "id": 10329,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "gsuite-3502364127.pdf",
-                                                    "id": 10306,
+                                                    "id": 10330,
                                                     "type": "file"
                                                 }
                                             ]
                                         },
                                         {
                                             "name": "Oct_2018",
-                                            "id": 10307,
+                                            "id": 10331,
                                             "type": "directory",
                                             "children": [
                                                 {
                                                     "name": "aws_Invoice_152318411.pdf",
-                                                    "id": 10308,
+                                                    "id": 10332,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "Azure_.pdf",
-                                                    "id": 10309,
+                                                    "id": 10333,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "github.pdf",
-                                                    "id": 10310,
+                                                    "id": 10334,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "gsuite-3502364127.pdf",
-                                                    "id": 10311,
+                                                    "id": 10335,
                                                     "type": "file"
                                                 }
                                             ]
                                         },
                                         {
                                             "name": "Sep_2018",
-                                            "id": 10312,
+                                            "id": 10336,
                                             "type": "directory",
                                             "children": [
                                                 {
                                                     "name": "aws_Invoice_152318411.pdf",
-                                                    "id": 10313,
+                                                    "id": 10337,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "Azure_.pdf",
-                                                    "id": 10314,
+                                                    "id": 10338,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "github.pdf",
-                                                    "id": 10315,
+                                                    "id": 10339,
                                                     "type": "file"
                                                 },
                                                 {
                                                     "name": "gsuite-3502364127.pdf",
-                                                    "id": 10316,
+                                                    "id": 10340,
                                                     "type": "file"
                                                 }
                                             ]
@@ -1730,176 +1858,240 @@
                 },
                 {
                     "name": "Jul20-2018Aug20.pdf",
-                    "id": 10317,
+                    "id": 10341,
                     "type": "file"
                 },
                 {
                     "name": "L2.pdf",
-                    "id": 10318,
+                    "id": 10342,
                     "type": "file"
                 },
                 {
                     "name": "mHealth.docx",
-                    "id": 10319,
+                    "id": 10343,
                     "type": "file"
                 },
                 {
                     "name": "NereusOutline.pdf",
-                    "id": 10320,
+                    "id": 10344,
                     "type": "file"
                 },
                 {
                     "name": "NLP",
-                    "id": 10321,
+                    "id": 10345,
                     "type": "directory",
                     "children": [
                         {
                             "name": "Alexander_2015.pdf",
-                            "id": 10322,
+                            "id": 10346,
                             "type": "file"
                         },
                         {
                             "name": "Huber 2018.pdf",
-                            "id": 10323,
+                            "id": 10347,
                             "type": "file"
                         },
                         {
                             "name": "lect1.pptx",
-                            "id": 10324,
+                            "id": 10348,
                             "type": "file"
                         },
                         {
                             "name": "lect2.pptx",
-                            "id": 10325,
+                            "id": 10349,
                             "type": "file"
                         },
                         {
                             "name": "P16-1221.pdf",
-                            "id": 10326,
+                            "id": 10350,
                             "type": "file"
                         },
                         {
                             "name": "W18-4107.pdf",
-                            "id": 10327,
+                            "id": 10351,
                             "type": "file"
                         },
                         {
                             "name": "WSDM2017.pdf",
-                            "id": 10328,
+                            "id": 10352,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "Nursing",
-                    "id": 10329,
+                    "id": 10353,
                     "type": "directory",
                     "children": [
                         {
                             "name": "Ballantyne 2013.pdf",
-                            "id": 10330,
+                            "id": 10354,
                             "type": "file"
                         },
                         {
                             "name": "Gordon 2014.pdf",
-                            "id": 10331,
+                            "id": 10355,
                             "type": "file"
                         },
                         {
                             "name": "Hunsaker_et_al-2015.pdf",
-                            "id": 10332,
+                            "id": 10356,
                             "type": "file"
                         },
                         {
                             "name": "lect11.pptx",
-                            "id": 10333,
+                            "id": 10357,
                             "type": "file"
                         },
                         {
                             "name": "lect12.pptx",
-                            "id": 10334,
+                            "id": 10358,
                             "type": "file"
                         },
                         {
                             "name": "lect13.pptx",
-                            "id": 10335,
+                            "id": 10359,
                             "type": "file"
                         },
                         {
                             "name": "lect14.pptx",
-                            "id": 10336,
+                            "id": 10360,
                             "type": "file"
                         },
                         {
                             "name": "Mackay 2011.pdf",
-                            "id": 10337,
+                            "id": 10361,
                             "type": "file"
                         },
                         {
                             "name": "Pinto_et_al-2015.pdf",
-                            "id": 10338,
+                            "id": 10362,
                             "type": "file"
                         }
                     ]
                 },
                 {
                     "name": "PAAS-EMP.pdf",
-                    "id": 10339,
+                    "id": 10363,
                     "type": "file"
                 },
                 {
-                    "name": "MDP.pdf",
-                    "id": 10340,
+                    "name": "Physics",
+                    "id": 10364,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "1705.08830.pdf",
+                            "id": 10365,
+                            "type": "file"
+                        },
+                        {
+                            "name": "1803.03629.pdf",
+                            "id": 10366,
+                            "type": "file"
+                        },
+                        {
+                            "name": "8197291291232.pdf",
+                            "id": 10367,
+                            "type": "file"
+                        },
+                        {
+                            "name": "9780429502798.pdf",
+                            "id": 10368,
+                            "type": "file"
+                        },
+                        {
+                            "name": "WJCMP_2018092916420128.pdf",
+                            "id": 10369,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Planning with MDP.pdf",
+                    "id": 10370,
                     "type": "file"
                 },
                 {
                     "name": "PriSM.pdf",
-                    "id": 10341,
+                    "id": 10371,
                     "type": "file"
                 },
                 {
                     "name": "rd1.pdf",
-                    "id": 10342,
+                    "id": 10372,
                     "type": "file"
                 },
                 {
                     "name": "readingW06-detail.rtf",
-                    "id": 10343,
+                    "id": 10373,
                     "type": "file"
                 },
                 {
                     "name": "Reform-8312018.PDF",
-                    "id": 10344,
+                    "id": 10374,
                     "type": "file"
                 },
                 {
                     "name": "RES141339.pdf",
-                    "id": 10345,
+                    "id": 10375,
                     "type": "file"
                 },
                 {
                     "name": "Sketch_4.pdf",
-                    "id": 10346,
+                    "id": 10376,
                     "type": "file"
                 },
                 {
+                    "name": "Software Engineering",
+                    "id": 10377,
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "01463229.pdf",
+                            "id": 10378,
+                            "type": "file"
+                        },
+                        {
+                            "name": "12362712.pdf",
+                            "id": 10379,
+                            "type": "file"
+                        },
+                        {
+                            "name": "8927055.pdf",
+                            "id": 10380,
+                            "type": "file"
+                        },
+                        {
+                            "name": "892838922.pdf",
+                            "id": 10381,
+                            "type": "file"
+                        },
+                        {
+                            "name": "icse15lavallee.pdf",
+                            "id": 10382,
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
                     "name": "STIR comments.docx",
-                    "id": 10347,
+                    "id": 10383,
                     "type": "file"
                 },
                 {
                     "name": "tree.jpg",
-                    "id": 10348,
+                    "id": 10384,
                     "type": "file"
                 },
                 {
                     "name": "visa_Oct19.pdf",
-                    "id": 10349,
+                    "id": 10385,
                     "type": "file"
                 },
                 {
                     "name": "windows HUP.pdf",
-                    "id": 10350,
+                    "id": 10386,
                     "type": "file"
                 }
             ]

@@ -39,7 +39,7 @@ def main():
         #    print(x)
 
 
-        data = (json.dumps(path_to_dict('C:\\Users\\Ashish Chopra\\Documents\\UBC\\TA\\CS344-2018W1')))
+        data = (json.dumps(path_to_dict('C:\\Users\\Ashish Chopra\\Desktop\\Computer')))
         print(data)
 
         #with open("test1.json", "w") as write_file:
