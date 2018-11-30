@@ -1,3 +1,37 @@
+NLP
+
+1. Find the paper about a neural network toplogy enhancement.
+- Huber 2018.pdf
+
+2. Find the paper about visually comparing topic models.
+- Alexander_2015.pdf
+
+3. Find the paper about topic models and alzheimer's disease.
+- P16-1221.pdf 
+
+4. Find the paper about personality prediction.
+- WSDM2017.pdf
+
+5. Find the paper about Parkinson's prediciton.
+- W18-4107.pdf
+
+Physics
+
+1. Find the paper about the LHC.
+- 1705.08830.pdf
+
+2. Find the paper about Dark Matter.
+- 1803.03629.pdf
+
+4. Find the paper about the european space satelite.
+- 8197291291232.pdf
+
+4. Find the paper about lasers.
+- 9780429502798.pdf
+
+5. Find the paper about Dark Energy.
+- WJCMP_2018092916420128.pdf
+
 Chemistry
 
 1. Which paper is discussing the ionization process of benzene?
@@ -16,39 +50,113 @@ Chemistry
 [Answer - S18722040076]
 
 
+---------------------------------------------------------------------------
+
+Nursing
+
+1. Find the file that deals with depression amongst new mothers.
+- Ballantyne 2013.pdf
+
+2. Find a file that deals with a program for emergency department employees.
+- Gordon 2014.pdf
+
+3. Find the file that deals with issues surrounding emergency room nurses.
+- Hunsaker_et_al-2015.pdf
+
+4. Find a file that deals with sex differences for a disease.
+- Mackay 2011.pdf
+
+5. Find the file that deals with low quality of life in older males.
+- Pinto_et_al-2015.pdf
+
 
 Education
 
 1. Which paper contains the analysis of instructions to teach writing?
-[Answer - Writing on writing]
+[Answer - S0883433035.pdf]
 
 2. Which paper contains the research on how teachers can improve classroom learning quality?
-[Answer - How to improve student learning in every classroom now]
+[Answer - S0883035516.pdf]
 
 3. Which paper contains a research related to behavior based game designed for education classrooms?   
-[Answer - Good Behavior Game Maintenance effects]
+[Answer - S0355161483.pdf]
 
 4. Which paper discusses the teaching strategies in rural areas of Finland?
-[Answer - Multi-grade teaching practices in Austrian and Finnish primary schools ]
+[Answer - S3551574234.pdf]
 
 5. Which paper contains the research related to education of autistic children?
-[Answer - What do teachers of students wwith autism specturm disorder know]
+[Answer - S0803551637.pdf]
+
+
+Software Engineering
+
+1. Find the paper about helping new software developers learn about a project from senior developers.
+- 01463229.pdf
+
+2. Find the paper about a recomender system for sofware developers.
+- 8927055.pdf
+
+3. Find the paper about data minning code.
+- 12362712.pdf
+
+4. Find the paper about challenges facing junior software developers.
+- 892838922.pdf
+
+5. Find the paper about things that impact code quality.
+- icse15lavallee.pdf
+
+---------------------------------------------------------------------------
+
+Haptics
+
+1. Find the file that is about vibration devices for haptics.
+- 9374833.pdf
+
+2. Find the file that is about a haptic roller ball pen like device.
+- 82928327.pdf
+
+3. Find the file about developing a modified mouse to scroll through vertical image stacks.
+- 82139339.pdf
+
+4. Find the file that deals with rendering force feedback in virtual environments.
+- 82873834.pdf
+
+5. Find the file that deals with virtual reality gloves in haptics.
+- 72763872.pdf
 
 
 Anatomy
 
-
 1. Which paper is talking about human muscular anatomy?
-[Answer - Structure, function, and control of the human musculoskeletal network]
+[Answer - journal2002811.doc]
 
 2. Which paper is discussing a disease related to brain?
-[Answer - Advances in Brain Tumor Surgery for Glioblastoma in Adults]
+[Answer -  journal9837483.pdf]
 
 3. Which paper has talking about human voice system in the mouth anatomy?
-[Answer - Comparative Anatomy of the Larynx and Related Structures]
+[Answer - journal892343243.pdf]
 
 4. Which paper is discussing about the surgery on cervical spine (neck)?
-[Answer - Anterior Cervical Disectomy Fusion surgery versus Disc Replacement]
+[Answer - s49801716670.pdf]
 
 5. Which paper is discussing the human urine filteration organ?
-[Answer - The arteries of the human kidney]
+[Answer - journal4160172.pdf]
+
+
+Geography
+
+1. What paper is about BC landscapes?
+- geography1.pdf
+
+2. What paper is about the largest freshwater reserves in north america?
+- geography2.pdf
+
+3. What paper is about a whole continents landscape?
+- geography3.pdf
+
+4. What paper is about the consequnces of tectonic plate shifts
+- geography4.pdf
+
+5. What paper is about the geographic features of places like the phillipines or hawaii? 
+- geography5.pdf
+

@@ -1696,11 +1696,6 @@
                     "type": "directory",
                     "children": [
                         {
-                            "name": "2674872.pptx",
-                            "id": 10312,
-                            "type": "file"
-                        },
-                        {
                             "name": "72763872.pdf",
                             "id": 10313,
                             "type": "file"
@@ -1708,11 +1703,6 @@
                         {
                             "name": "82139339.pdf",
                             "id": 10314,
-                            "type": "file"
-                        },
-                        {
-                            "name": "8237223.pptx",
-                            "id": 10315,
                             "type": "file"
                         },
                         {
@@ -1892,16 +1882,6 @@
                             "type": "file"
                         },
                         {
-                            "name": "lect1.pptx",
-                            "id": 10348,
-                            "type": "file"
-                        },
-                        {
-                            "name": "lect2.pptx",
-                            "id": 10349,
-                            "type": "file"
-                        },
-                        {
                             "name": "P16-1221.pdf",
                             "id": 10350,
                             "type": "file"
@@ -1936,26 +1916,6 @@
                         {
                             "name": "Hunsaker_et_al-2015.pdf",
                             "id": 10356,
-                            "type": "file"
-                        },
-                        {
-                            "name": "lect11.pptx",
-                            "id": 10357,
-                            "type": "file"
-                        },
-                        {
-                            "name": "lect12.pptx",
-                            "id": 10358,
-                            "type": "file"
-                        },
-                        {
-                            "name": "lect13.pptx",
-                            "id": 10359,
-                            "type": "file"
-                        },
-                        {
-                            "name": "lect14.pptx",
-                            "id": 10360,
                             "type": "file"
                         },
                         {
