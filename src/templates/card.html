@@ -10,8 +10,9 @@
 </div>
 <div class="modal-author"><b style="color:#000">Authors:</b> {{ kCtrl.data.author}}</div>
 <div class="modal-body">
-    {{ kCtrl.data.abstract }}
+   
     <div class="modal-gallery" ng-if="kCtrl.data.image">
         <img ng-src="img/{{kCtrl.data.image}}" style="width:100%">
     </div>
+    {{ kCtrl.data.abstract }}
 </div>
