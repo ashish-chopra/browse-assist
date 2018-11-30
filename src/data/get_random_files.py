@@ -1,4 +1,4 @@
-#!/user/bin/python3.7.0
+#!/usr/bin/env python3
 # Takes 1 argument
 #   1: path to directory
 #
@@ -11,7 +11,7 @@ def get_random_files(root, target_depth, depth=1):
         if os.path.isdir(path):
             items += get_random_files(path, target_depth, depth + 1)
         if target_depth == depth and not os.path.isdir(path):
-            items.append(item)
+            items.append(path)
     return items
 
 def main(path, depth):
@@ -25,5 +25,5 @@ def main(path, depth):
 # Main body
 if __name__ == '__main__':
     root = sys.argv[1]
-    depth = 3
+    depth = 2
     main(root, depth)
