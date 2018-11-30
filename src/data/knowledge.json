@@ -99,7 +99,7 @@
             "date": "24 Apr 2014",
             "abstract": "To examine the health-related quality of life and psychological well-being of patients with benign prostatic hyperplasia and identify the predictive factors of health-related quality of life. The health-related quality of life of patients with benign prostatic hyperplasia was poor, and their psychological well-being was severely affected.",
             "image": ""
-        },//text only
+        },
         {
             "id": 10291,
             "title": "Hipikat: A Project Memory for Software Development",
@@ -149,7 +149,7 @@
             "date": "16 Sep 2007",
             "abstract": "Large repositories of source code available over the Internet, or within large organizations, create new challenges and opportunities for data mining and sta- tistical machine learning. Here we first develop Sourcerer, an infrastructure for the automated crawling, parsing, fingerprinting, and database storage of open source soft- ware on an Internet-scale. In one experiment, we gather 4,632 Java projects from SourceForge and Apache totaling over 38million lines of code from 9,250 develo- pers. Simple statistical analyses of the data first reveal robust power-law behavior for package, method call, and lexical containment distributions. We then develop and apply unsupervised, probabilistic, topic and author-topic (AT) models to automatically discover the topics embedded in the code and extract topic-word, document-topic, and AT distributions.",
             "image": ""
-        },//text + image
+        },
         {
             "id": 10338,
             "title": "Geography of British Columbia",
