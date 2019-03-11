@@ -33,24 +33,3 @@ In order to develop this project you require following software on your system:
 2. [Ashish Chopra](https://github.com/ashish-chopra)
 3. [Patrick Boutet](https://github.com/pboutet)
 4. [Steve Kaisca](https://github.com/swkasica)
-
-
-
-each task has one set file system
-
-populated courses folder - ahsis has folder
-
-populated 
-
-for the downloads task, get 5,5,5 = 15 total knowledge cards
-- 5 files for trditional file browser - no KC needed
-- 5 files for browse assist + KC w images and text = need to make 5 knowledge cards for this
-- 5 files for BA + KC w text only = need to make 5 knoweldge cards for this
-
-
-d = 1 - 5
-d = 2 - 
-
-line to delete all .DS_Store files from Computer downward
-find . -name ".DS_Store" -type f -delete
-
