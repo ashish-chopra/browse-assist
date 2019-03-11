@@ -4,6 +4,8 @@
 
 For the sake of simplicity, the scope of this project is to showcase the proposed interaction design with the file explorers, therefore, we have implemented it in a fake explorer simulated in HTML, CSS and JavaScript.
 
+<center><img src="src/img/browse-assist-demo.gif" width="600"  /></center>
+
 # Pre-requisite
 In order to develop this project you require following software on your system:
    1. node.js (Runtime for JS environment)
